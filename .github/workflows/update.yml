@@ -1,4 +1,4 @@
-ame: Actualización Cada Hora (07:00 - 23:00) y Despliegue en GitHub Pages
+name: Actualización Cada Hora (07:00 - 23:00) y Despliegue en GitHub Pages
 
 on:
   schedule:
