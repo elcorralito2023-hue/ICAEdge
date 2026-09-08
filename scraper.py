@@ -5,7 +5,7 @@ import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
 
-def fetch_fotocasa_listings(max_price=750000, min_bedrooms=3):
+def fetch_fotocasa_listings(max_price=750000, min_bedrooms=3, location_filter=""):
     """
     Extrae ofertas REALES en tiempo real desde la API de Fotocasa para casas y chalets en Madrid
     (Las Rozas, Majadahonda, Pozuelo, Alcorcón, Móstoles, Boadilla, Torrelodones, etc.)
@@ -145,12 +145,13 @@ def fetch_idealista_listings(max_price=750000, min_bedrooms=3):
 
 def main():
     parser = argparse.ArgumentParser(description="Recolector en tiempo real de Chalets (Fotocasa / Idealista)")
-    parser.add_argument("--max-price", type=int, default=750000)
-    parser.add_argument("--min-bedrooms", type=int, default=3)
-    parser.add_argument("--output", default="data/listings.json")
+    parser.add_argument("--location", type=str, default="Las Rozas, Majadahonda, Alcorcón, Móstoles", help="Ubicación a buscar")
+    parser.add_argument("--max-price", type=int, default=750000, help="Precio máximo (€)")
+    parser.add_argument("--min-bedrooms", type=int, default=3, help="Mínimo de dormitorios")
+    parser.add_argument("--output", default="data/listings.json", help="Ruta de salida del archivo JSON")
     args = parser.parse_args()
 
-    fc_results = fetch_fotocasa_listings(max_price=args.max_price, min_bedrooms=args.min_bedrooms)
+    fc_results = fetch_fotocasa_listings(max_price=args.max_price, min_bedrooms=args.min_bedrooms, location_filter=args.location)
     id_results = fetch_idealista_listings(max_price=args.max_price, min_bedrooms=args.min_bedrooms)
 
     all_listings = fc_results + id_results
