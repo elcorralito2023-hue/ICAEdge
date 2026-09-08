@@ -1,18 +1,25 @@
-name: Actualización Cada Hora (07:00 - 23:00) y Despliegue en GitHub Pages
+ame: Actualización Cada Hora (07:00 - 23:00) y Despliegue en GitHub Pages
 
 on:
   schedule:
-    # Se ejecuta cada hora desde las 07:00 hasta las 23:00 (hora de España)
+    # Se ejecuta cada hora desde las 07:00 hasta las 23:00 (hora peninsular española)
     - cron: '0 5-21 * * *'
-  workflow_dispatch: # Permite ejecución manual si se desea
+  workflow_dispatch: # Permite ejecución manual desde la pestaña Actions de GitHub
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   scrape-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: 1. Checkout del código
@@ -23,26 +30,43 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 3. Ejecutar recolector de viviendas
+      - name: 3. Ejecutar recolector de viviendas y generar resumen
         run: |
           python scraper.py --location "Las Rozas, Majadahonda, Alcorcón, Móstoles" --max-price 750000
 
-      - name: 4. Guardar cambios en listings.json
+      - name: 4. Guardar cambios en data/listings.json
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add listings.json || true
-          git diff-index --quiet HEAD || git commit -m "chore(data): actualización horaria de viviendas"
+          git add data/listings.json data/summary.md || true
+          git diff-index --quiet HEAD || git commit -m "chore(data): actualización horaria de viviendas [skip ci]"
           git push || true
 
-      - name: 5. Configurar GitHub Pages
+      - name: 5. Envío opcional de notificación por correo
+        if: env.NOTIFICATION_EMAIL != '' && env.MAIL_USERNAME != ''
+        uses: dawidd6/action-send-mail@v3
+        env:
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          subject: 🏡 Actualización de Chalets en Madrid (Idealista / Fotocasa)
+          to: ${{ secrets.NOTIFICATION_EMAIL }}
+          from: Buscador de Viviendas <${{ secrets.MAIL_USERNAME }}>
+          html_body: file://data/summary.md
+          convert_markdown: true
+
+      - name: 6. Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: 6. Empaquetar para GitHub Pages
+      - name: 7. Empaquetar artefactos para GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-      - name: 7. Desplegar en GitHub Pages
+      - name: 8. Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
