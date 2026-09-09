@@ -5,6 +5,23 @@ import argparse
 import urllib.request
 from datetime import datetime, timezone
 
+def find_real_estates(obj):
+    if isinstance(obj, dict):
+        if "realEstates" in obj and isinstance(obj["realEstates"], list):
+            return obj["realEstates"]
+        for k, v in obj.items():
+            if isinstance(v, (dict, list)):
+                res = find_real_estates(v)
+                if res:
+                    return res
+    elif isinstance(obj, list):
+        for item in obj:
+            if isinstance(item, (dict, list)):
+                res = find_real_estates(item)
+                if res:
+                    return res
+    return None
+
 def fetch_real_estates():
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
@@ -34,22 +51,6 @@ def fetch_real_estates():
                 for s in scripts:
                     if "combinedLocationIds" in s and len(s) > 10000:
                         data = json.loads(s)
-                        
-                        def find_real_estates(obj):
-                            if isinstance(obj, dict):
-                                if "realEstates" in obj and isinstance(obj["realEstates"], list):
-                                    return obj["realEstates"]
-                                for k, v in obj.items():
-                                    if isinstance(v, (dict, list)):
-                                        res = find_real_estates(v)
-                                        if res: return res
-                            elif isinstance(obj, list):
-                                for item in obj:
-                                    if isinstance(item, (dict, list)):
-                                        res = find_real_estates(item)
-                                        if res: return res
-                            return None
-
                         items = find_real_estates(data)
                         if items:
                             for item in items:
@@ -135,6 +136,19 @@ def fetch_real_estates():
             print(f"[-] Error en {zone_name}: {e}")
 
     results = list(all_listings.values())
+
+    # Fallback actualizando marcas de tiempo
+    if not results and os.path.exists("listings.json"):
+        print("[!] Reutilizando dataset existente y actualizando marcas de tiempo...")
+        try:
+            with open("listings.json", "r", encoding="utf-8") as f:
+                results = json.load(f)
+                now_str = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+                for item in results:
+                    item["updated_at"] = now_str
+        except Exception as ex:
+            print("[-] Error leyendo listings.json existente:", ex)
+
     results.sort(key=lambda x: x["price"])
     print(f"[✔] Total de viviendas reales volcadas a listings.json: {len(results)}")
     return results
@@ -149,7 +163,6 @@ def main():
 
     results = fetch_real_estates()
 
-    # Guardar en listings.json y en data/listings.json
     with open("listings.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
