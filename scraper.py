@@ -1,165 +1,162 @@
 import os
 import json
+import re
 import argparse
 import urllib.request
-import urllib.parse
 from datetime import datetime, timezone
 
-def fetch_fotocasa_listings(max_price=750000, min_bedrooms=3):
-    """
-    Extrae ofertas REALES en tiempo real desde la API de Fotocasa para casas y chalets en Madrid
-    (Las Rozas, Majadahonda, Pozuelo, Alcorcón, Móstoles, Boadilla, Torrelodones, etc.)
-    """
-    print("[*] Consultando API en tiempo real de Fotocasa...")
-    listings = []
-    
-    # Probar las primeras 3 páginas de resultados
-    for page in range(1, 4):
-        url = (
-            "https://es-api.fotocasa.es/1.0.0/realestates/search?"
-            "combinedLocationIds=724,14,28,0,0,0,0,0,0&"
-            "transactionTypeId=1&"
-            "propertyTypeIds=1&propertyTypeIds=3&propertyTypeIds=4&"
-            f"minBedrooms={min_bedrooms}&"
-            f"maxPrice={max_price}&"
-            f"pageNumber={page}&"
-            "sortType=price&sortOrder=asc"
-        )
+def fetch_real_estates():
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "es-ES,es;q=0.9,en;q=0.8"
+    }
 
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
-            'Referer': 'https://www.fotocasa.es/',
-        }
+    zones = [
+        ("Las Rozas", "https://www.fotocasa.es/es/comprar/viviendas/las-rozas-de-madrid/todas-las-zonas/l"),
+        ("Majadahonda", "https://www.fotocasa.es/es/comprar/viviendas/majadahonda/todas-las-zonas/l"),
+        ("Pozuelo de Alarcón", "https://www.fotocasa.es/es/comprar/viviendas/pozuelo-de-alarcon/todas-las-zonas/l"),
+        ("Alcorcón", "https://www.fotocasa.es/es/comprar/viviendas/alcorcon/todas-las-zonas/l"),
+        ("Móstoles", "https://www.fotocasa.es/es/comprar/viviendas/mostoles/todas-las-zonas/l"),
+        ("Torrelodones", "https://www.fotocasa.es/es/comprar/viviendas/torrelodones/todas-las-zonas/l"),
+        ("Boadilla del Monte", "https://www.fotocasa.es/es/comprar/viviendas/boadilla-del-monte/todas-las-zonas/l")
+    ]
 
+    all_listings = {}
+
+    for zone_name, url in zones:
+        print(f"[*] Rastreando ofertas reales en {zone_name}...")
         req = urllib.request.Request(url, headers=headers)
-
         try:
             with urllib.request.urlopen(req, timeout=15) as resp:
-                if resp.status == 200:
-                    data = json.loads(resp.read().decode('utf-8'))
-                    raw_items = data.get('realEstates', [])
-                    print(f"[+] Fotocasa página {page}: {len(raw_items)} inmuebles sin procesar.")
+                html = resp.read().decode("utf-8", errors="ignore")
+                scripts = re.findall(r"<script[^>]*>(.*?)</script>", html, re.DOTALL)
+                for s in scripts:
+                    if "combinedLocationIds" in s and len(s) > 10000:
+                        data = json.loads(s)
+                        
+                        def find_real_estates(obj):
+                            if isinstance(obj, dict):
+                                if "realEstates" in obj and isinstance(obj["realEstates"], list):
+                                    return obj["realEstates"]
+                                for k, v in obj.items():
+                                    if isinstance(v, (dict, list)):
+                                        res = find_real_estates(v)
+                                        if res: return res
+                            elif isinstance(obj, list):
+                                for item in obj:
+                                    if isinstance(item, (dict, list)):
+                                        res = find_real_estates(item)
+                                        if res: return res
+                        return None
 
-                    for item in raw_items:
-                        price_val = item.get('price', {}).get('value', 0) if isinstance(item.get('price'), dict) else (item.get('price') or 0)
-                        if price_val > max_price or price_val == 0:
-                            continue
+                        items = find_real_estates(data)
+                        if items:
+                            for item in items:
+                                item_id = item.get("id")
+                                if not item_id or item_id in all_listings:
+                                    continue
 
-                        # Leer claves principales directamente
-                        bedrooms = item.get('bedrooms') or item.get('rooms') or 4
-                        bathrooms = item.get('bathrooms') or 2
-                        surface = item.get('surface') or item.get('buildingSurface') or 200
+                                price_raw = item.get("rawPrice") or item.get("price") or 0
+                                if isinstance(price_raw, str):
+                                    try: price_val = int(re.sub(r"[^\d]", "", price_raw))
+                                    except: price_val = 0
+                                else:
+                                    price_val = price_raw
 
-                        if isinstance(bedrooms, str):
-                            try: bedrooms = int(bedrooms)
-                            except: bedrooms = 4
+                                if price_val < 200000 or price_val > 750000:
+                                    continue
 
-                        if bedrooms < min_bedrooms:
-                            continue
+                                detail = item.get("detail", {})
+                                detail_path = detail.get("es-ES") or detail.get("es") or ""
+                                if not detail_path:
+                                    continue
 
-                        title = item.get('title') or 'Chalet Unifamiliar'
-                        description = item.get('description') or ''
+                                title_raw = str(item.get("title") or item.get("description") or f"Chalet en {zone_name}").strip()
+                                lower_title = title_raw.lower()
+                                if any(w in lower_title for w in ["local", "nave", "garaje", "trastero", "oficina"]):
+                                    continue
 
-                        # Detectar piscina
-                        features_raw = item.get('features', [])
-                        has_pool = False
-                        if isinstance(features_raw, list):
-                            for f in features_raw:
-                                if isinstance(f, str) and ('pool' in f.lower() or 'piscina' in f.lower()):
-                                    has_pool = True
-                                elif isinstance(f, dict):
-                                    f_str = str(f.get('key') or f.get('name') or f.get('value') or '').lower()
-                                    if 'pool' in f_str or 'piscina' in f_str:
-                                        has_pool = True
+                                title = title_raw
+                                if len(title) > 110:
+                                    title = title[:107] + "..."
 
-                        if 'piscina' in title.lower() or 'piscina' in description.lower():
-                            has_pool = True
+                                multimedia = item.get("multimedias") or item.get("photos") or []
+                                img_url = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+                                if isinstance(multimedia, list) and len(multimedia) > 0:
+                                    m0 = multimedia[0]
+                                    if isinstance(m0, dict):
+                                        img_url = m0.get("url") or m0.get("url_es") or img_url
 
-                        # Ubicación
-                        loc_dict = item.get('location', {}) if isinstance(item.get('location'), dict) else {}
-                        level5 = loc_dict.get('level5', '')
-                        level4 = loc_dict.get('level4', '')
-                        level3 = loc_dict.get('level3', '')
-                        level2 = loc_dict.get('level2', '')
+                                bedrooms = item.get("bedrooms") or item.get("rooms") or 4
+                                bathrooms = item.get("bathrooms") or 2
+                                surface = item.get("surface") or item.get("buildingSurface") or 220
 
-                        loc_parts = [p for p in [level5, level4, level3, level2] if p and isinstance(p, str)]
-                        location_full = ", ".join(loc_parts) if loc_parts else "Madrid"
+                                features_raw = item.get("features", [])
+                                has_pool = False
+                                if isinstance(features_raw, list):
+                                    for f in features_raw:
+                                        if isinstance(f, dict):
+                                            f_key = str(f.get("key") or f.get("value") or "").lower()
+                                            if "pool" in f_key or "piscina" in f_key:
+                                                has_pool = True
 
-                        # Fotos
-                        photos = item.get('multimedias', []) or item.get('photos', [])
-                        img_url = "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
-                        if isinstance(photos, list) and len(photos) > 0:
-                            p0 = photos[0]
-                            if isinstance(p0, dict):
-                                img_url = p0.get('url') or p0.get('url_es') or img_url
+                                loc_str = str(item.get("location") or zone_name)
+                                full_loc = f"{loc_str}, {zone_name}" if zone_name.lower() not in loc_str.lower() else loc_str
 
-                        detail_url = item.get('detail', {}).get('es', '') if isinstance(item.get('detail'), dict) else ''
-                        full_link = f"https://www.fotocasa.es{detail_url}" if detail_url else "https://www.fotocasa.es"
+                                full_url = "https://www.fotocasa.es" + str(detail_path)
 
-                        feat_list = []
-                        if has_pool: feat_list.append("Piscina")
-                        feat_list.append(f"{bedrooms} dorms")
-                        feat_list.append("Jardín / Parcela")
-                        feat_list.append("Buhardilla / Sótano")
+                                feat_tags = []
+                                if has_pool: feat_tags.append("Piscina")
+                                feat_tags.append(f"{bedrooms} dorms")
+                                feat_tags.append("Jardín / Parcela")
 
-                        price_per_m2 = round(price_val / surface) if (surface and surface > 0) else 2500
+                                price_m2 = round(price_val / surface) if surface > 0 else 2500
 
-                        listings.append({
-                            "id": f"fc_{item.get('id')}",
-                            "title": title,
-                            "portal": "Fotocasa",
-                            "price": price_val,
-                            "price_per_m2": price_per_m2,
-                            "size_m2": surface or 200,
-                            "bedrooms": bedrooms,
-                            "bathrooms": bathrooms or 2,
-                            "floor": "Chalet / Unifamiliar",
-                            "location": location_full,
-                            "lat": loc_dict.get('coordinates', {}).get('latitude', 40.4168) if isinstance(loc_dict.get('coordinates'), dict) else 40.4168,
-                            "lng": loc_dict.get('coordinates', {}).get('longitude', -3.7038) if isinstance(loc_dict.get('coordinates'), dict) else -3.7038,
-                            "image": img_url,
-                            "url": full_link,
-                            "features": feat_list,
-                            "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
-                        })
+                                all_listings[item_id] = {
+                                    "id": "fc_" + str(item_id),
+                                    "title": title,
+                                    "portal": "Fotocasa",
+                                    "price": price_val,
+                                    "price_per_m2": price_m2,
+                                    "size_m2": surface,
+                                    "bedrooms": bedrooms,
+                                    "bathrooms": bathrooms,
+                                    "floor": "Chalet / Unifamiliar",
+                                    "location": full_loc,
+                                    "lat": 40.4500,
+                                    "lng": -3.8700,
+                                    "image": img_url,
+                                    "url": full_url,
+                                    "features": feat_tags,
+                                    "updated_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
+                                }
         except Exception as e:
-            print(f"[-] Error al consultar la página {page} de Fotocasa: {e}")
+            print(f"[-] Error en zona {zone_name}: {e}")
 
-    print(f"[+] Total de chalets procesados de Fotocasa: {len(listings)}")
-    return listings
+    results = list(all_listings.values())
+    results.sort(key=lambda x: x["price"])
+    print(f"[✔] Total de viviendas reales encontradas: {len(results)}")
+    return results
 
 def main():
-    parser = argparse.ArgumentParser(description="Recolector en tiempo real de Chalets (Fotocasa / Idealista)")
-    parser.add_argument("--location", type=str, default="Las Rozas, Majadahonda, Alcorcón, Móstoles", help="Ubicación a buscar")
-    parser.add_argument("--max-price", type=int, default=750000, help="Precio máximo (€)")
-    parser.add_argument("--min-bedrooms", type=int, default=3, help="Mínimo de dormitorios")
-    parser.add_argument("--output", default="data/listings.json", help="Ruta de salida del archivo JSON")
+    parser = argparse.ArgumentParser(description="Recolector en tiempo real de Chalets")
+    parser.add_argument("--location", type=str, default="Las Rozas, Majadahonda, Alcorcón, Móstoles")
+    parser.add_argument("--max-price", type=int, default=750000)
+    parser.add_argument("--min-bedrooms", type=int, default=3)
+    parser.add_argument("--output", default="data/listings.json")
     args = parser.parse_args()
 
-    results = fetch_fotocasa_listings(max_price=args.max_price, min_bedrooms=args.min_bedrooms)
-
-    # Si por alguna razón la red falla y devuelve 0, mantener archivo previo si existe
-    if not results:
-        print("[!] No se recibieron datos de la API en vivo, usando archivo existente si está disponible.")
-        if os.path.exists(args.output):
-            with open(args.output, "r", encoding="utf-8") as f:
-                try: results = json.load(f)
-                except: results = []
-
-    results.sort(key=lambda x: x['price'])
-
-    print(f"[✔] Guardando {len(results)} chalets en {args.output}")
+    results = fetch_real_estates()
 
     os.makedirs(os.path.dirname(args.output), exist_ok=True)
-    
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     with open("listings.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"[✔] Proceso de extracción finalizado con éxito.")
+    print(f"[✔] Proceso finalizado. Archivo {args.output} guardado con éxito.")
 
 if __name__ == "__main__":
     main()
