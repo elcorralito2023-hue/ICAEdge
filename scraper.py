@@ -48,7 +48,7 @@ def fetch_real_estates():
                                     if isinstance(item, (dict, list)):
                                         res = find_real_estates(item)
                                         if res: return res
-                        return None
+                            return None
 
                         items = find_real_estates(data)
                         if items:
