@@ -3,543 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscador de Chalets y Casas en Madrid (Las Rozas, Majadahonda, Alcorcón, Móstoles)</title>
-    <!-- Tailwind CSS CDN -->
+    <title>Buscador de Chalets en Madrid | Idealista & Fotocasa</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Leaflet CSS & JS para Mapas -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <style>
-        .badge-idealista { background-color: #de136c; color: white; }
-        .badge-fotocasa { background-color: #2e71f8; color: white; }
-        #map { height: 500px; width: 100%; border-radius: 0.75rem; z-index: 10; }
-        .property-card { transition: all 0.25s ease-in-out; }
-        .property-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.15); }
-    </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
-
-    <!-- Header Principal -->
-    <header class="bg-slate-900 text-white shadow-md sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+<body class="bg-slate-50 text-slate-800 min-h-screen">
+    <header class="bg-indigo-900 text-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
             <div class="flex items-center space-x-3">
-                <div class="bg-indigo-600 p-2.5 rounded-xl shadow-lg">
-                    <i class="fa-solid fa-house-chimney text-2xl text-white"></i>
+                <div class="bg-amber-400 text-indigo-900 p-2.5 rounded-xl font-black text-2xl shadow-inner">
+                    <i class="fa-solid fa-house-chimney"></i>
                 </div>
                 <div>
-                    <h1 class="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-                        Buscador de Chalets en Madrid
-                        <span class="text-xs bg-indigo-500/30 text-indigo-300 border border-indigo-500/40 px-2 py-0.5 rounded-full">Exclusivo Casas & Chalets</span>
-                    </h1>
-                    <p class="text-xs text-slate-400">Filtro automático: Independientes/Pareados/Adosados • 3-4+ Habs • Piscina • Máx 750k€</p>
+                    <h1 class="text-xl font-bold tracking-tight">Buscador de Chalets en Madrid</h1>
+                    <p class="text-xs text-indigo-200">Las Rozas, Majadahonda, Pozuelo, Alcorcón, Móstoles, Torrelodones, Boadilla</p>
                 </div>
             </div>
-
-            <!-- Stats Rápidas -->
-            <div class="flex items-center space-x-4 bg-slate-800/80 px-4 py-2 rounded-xl border border-slate-700/60 text-xs">
-                <div>
-                    <span class="text-slate-400 block">Viviendas encontradas</span>
-                    <span id="stat-total" class="font-bold text-indigo-400 text-sm">0</span>
-                </div>
-                <div class="h-6 w-px bg-slate-700"></div>
-                <div>
-                    <span class="text-slate-400 block">Precio Mínimo</span>
-                    <span id="stat-min-price" class="font-bold text-emerald-400 text-sm">0 €</span>
-                </div>
-                <div class="h-6 w-px bg-slate-700"></div>
-                <div>
-                    <span class="text-slate-400 block">Precio Medio</span>
-                    <span id="stat-avg-price" class="font-bold text-amber-400 text-sm">0 €</span>
-                </div>
+            <div id="statsBadge" class="bg-indigo-800/80 px-4 py-2 rounded-lg text-sm flex items-center gap-4 border border-indigo-700">
+                <span><i class="fa-solid fa-list-check text-amber-400"></i> <strong id="totalCount">0</strong> viviendas</span>
+                <span><i class="fa-solid fa-clock text-emerald-400"></i> <span id="lastUpdated">Actualizando...</span></span>
             </div>
         </div>
     </header>
 
-    <!-- Barra de Búsqueda y Control de Filtros -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-grow w-full space-y-6">
-
-        <div class="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 space-y-4">
-            
-            <!-- Fila Superior: Búsqueda por texto y Ordenación -->
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
-                
-                <!-- Buscador Texto -->
-                <div class="md:col-span-5 relative">
-                    <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-3.5 text-slate-400"></i>
-                    <input type="text" id="search-input" placeholder="Buscar por zona, municipio (ej: Las Rozas, Alcorcón, Móstoles, Sótano...)" 
-                        class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none transition">
-                </div>
-
-                <!-- Selector Ordenación -->
-                <div class="md:col-span-4 flex items-center space-x-2">
-                    <label for="sort-select" class="text-xs font-semibold text-slate-600 whitespace-nowrap">
-                        <i class="fa-solid fa-arrow-down-short-wide text-indigo-600 mr-1"></i> Ordenar por:
-                    </label>
-                    <select id="sort-select" class="w-full py-2.5 px-3 text-sm bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:outline-none font-medium text-slate-700">
-                        <option value="price-asc" selected>💰 Precio: Menor a Mayor (Predeterminado)</option>
+    <main class="max-w-7xl mx-auto px-4 py-6">
+        <div class="bg-white rounded-xl shadow-sm border border-slate-200 p-5 mb-6">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-500 mb-1">Ordenar Por</label>
+                    <select id="sortSelect" onchange="applyFilters()" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-indigo-500">
+                        <option value="price-asc" selected>💰 Precio: Menor a Mayor</option>
                         <option value="price-desc">💰 Precio: Mayor a Menor</option>
-                        <option value="price-m2-asc">📐 Precio por m²: Más económico</option>
-                        <option value="size-desc">📏 Tamaño: Mayor superficie (m²)</option>
-                        <option value="date-desc">🕒 Última actualización</option>
+                        <option value="m2-desc">📏 Superficie (m²)</option>
+                        <option value="price-m2-asc">💶 Precio por m² (€/m²)</option>
                     </select>
                 </div>
-
-                <!-- Conmutador Vista Rejilla / Mapa y Favoritos -->
-                <div class="md:col-span-3 flex items-center justify-end space-x-2">
-                    <button id="btn-view-cards" class="px-3.5 py-2.5 rounded-xl text-xs font-semibold bg-indigo-600 text-white shadow-sm flex items-center gap-1.5 transition">
-                        <i class="fa-solid fa-grip"></i> Tarjetas
-                    </button>
-                    <button id="btn-view-map" class="px-3.5 py-2.5 rounded-xl text-xs font-semibold bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200 flex items-center gap-1.5 transition">
-                        <i class="fa-solid fa-map-location-dot"></i> Mapa
-                    </button>
-                    <button id="btn-toggle-favs" class="px-3.5 py-2.5 rounded-xl text-xs font-semibold bg-amber-50 text-amber-700 hover:bg-amber-100 border border-amber-200 flex items-center gap-1.5 transition">
-                        <i class="fa-solid fa-star text-amber-500"></i> Favoritos (<span id="fav-count">0</span>)
-                    </button>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-500 mb-1">Buscar Zona / Palabra</label>
+                    <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Ej. Las Rozas, Piscina..." class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-sm focus:ring-2 focus:ring-indigo-500">
                 </div>
-            </div>
-
-            <!-- Fila Inferior de Filtros Específicos -->
-            <div class="pt-3 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-4 items-center">
-                
-                <!-- Tipo de Vivienda (Sin Pisos) -->
-                <div class="md:col-span-3">
-                    <label class="block text-xs font-semibold text-slate-600 mb-1">Tipo de Propiedad</label>
-                    <select id="property-type-select" class="w-full py-2 px-3 text-xs bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
-                        <option value="all-chalets" selected>🏠 Todos los Chalets (Indep/Pareado/Adosado)</option>
-                        <option value="Chalet Independiente">🏡 Solo Chalet Independiente</option>
-                        <option value="Chalet Pareado">🏡 Solo Chalet Pareado</option>
-                        <option value="Chalet Adosado">🏡 Solo Chalet Adosado</option>
-                    </select>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-500 mb-1">Precio Máx: <span id="priceVal" class="text-indigo-600 font-bold">750.000 €</span></label>
+                    <input type="range" id="priceRange" min="300000" max="850000" step="10000" value="750000" oninput="updatePriceLabel(); applyFilters()" class="w-full accent-indigo-600 mt-2">
                 </div>
-
-                <!-- Rango de Precio -->
-                <div class="md:col-span-3">
-                    <div class="flex justify-between items-center mb-1">
-                        <label class="text-xs font-semibold text-slate-600">Precio Máximo</label>
-                        <span id="price-slider-value" class="text-xs font-bold text-indigo-600">750.000 €</span>
-                    </div>
-                    <input type="range" id="price-slider" min="400000" max="1000000" step="25000" value="750000" class="w-full accent-indigo-600 cursor-pointer">
-                </div>
-
-                <!-- Mínimo Habitaciones -->
-                <div class="md:col-span-2">
-                    <label class="block text-xs font-semibold text-slate-600 mb-1">Mín. Habitaciones</label>
-                    <select id="bedrooms-select" class="w-full py-2 px-3 text-xs bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
-                        <option value="3" selected>3 o 4+ habs (con buhardilla/sótano)</option>
-                        <option value="4">4+ habitaciones exclusivamente</option>
-                    </select>
-                </div>
-
-                <!-- Checkbox Piscina obligatorio -->
-                <div class="md:col-span-2 flex items-center pt-3 sm:pt-0">
-                    <label class="inline-flex items-center cursor-pointer">
-                        <input type="checkbox" id="pool-checkbox" checked class="sr-only peer">
-                        <div class="w-9 h-5 bg-slate-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-indigo-600 relative"></div>
-                        <span class="ml-2 text-xs font-semibold text-slate-700 flex items-center gap-1">
-                            <i class="fa-solid fa-person-swimming text-cyan-600"></i> Con Piscina
-                        </span>
-                    </label>
-                </div>
-
-                <!-- Portal Selector -->
-                <div class="md:col-span-2">
-                    <label class="block text-xs font-semibold text-slate-600 mb-1">Portal</label>
-                    <select id="portal-select" class="w-full py-2 px-3 text-xs bg-slate-50 border border-slate-300 rounded-lg focus:ring-2 focus:ring-indigo-500">
-                        <option value="all">Todos (Idealista & Fotocasa)</option>
+                <div>
+                    <label class="block text-xs font-semibold uppercase text-slate-500 mb-1">Portal</label>
+                    <select id="portalSelect" onchange="applyFilters()" class="w-full bg-slate-50 border border-slate-300 rounded-lg p-2.5 text-sm font-medium focus:ring-2 focus:ring-indigo-500">
+                        <option value="all">Todos los Portales</option>
                         <option value="Idealista">Idealista</option>
                         <option value="Fotocasa">Fotocasa</option>
                     </select>
                 </div>
             </div>
-
-            <!-- Tags Rápidos de Ubicación -->
-            <div class="pt-2 flex flex-wrap items-center gap-2 text-xs">
-                <span class="text-slate-400 font-semibold">Zonas rápidas:</span>
-                <button class="tag-btn bg-indigo-50 hover:bg-indigo-100 text-indigo-700 px-2.5 py-1 rounded-full font-medium border border-indigo-200 transition" onclick="setZoneFilter('')">Todas</button>
-                <button class="tag-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-medium border border-slate-200 transition" onclick="setZoneFilter('Las Rozas')">📍 Las Rozas</button>
-                <button class="tag-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-medium border border-slate-200 transition" onclick="setZoneFilter('Majadahonda')">📍 Majadahonda</button>
-                <button class="tag-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-medium border border-slate-200 transition" onclick="setZoneFilter('Pozuelo')">📍 Pozuelo</button>
-                <button class="tag-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-medium border border-slate-200 transition" onclick="setZoneFilter('Alcorcón')">📍 Alcorcón</button>
-                <button class="tag-btn bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full font-medium border border-slate-200 transition" onclick="setZoneFilter('Móstoles')">📍 Móstoles</button>
-            </div>
         </div>
 
-        <!-- Contenedor del Mapa (Oculto por defecto) -->
-        <div id="map-container" class="bg-white p-3 rounded-2xl shadow-sm border border-slate-200 hidden">
-            <div id="map"></div>
-        </div>
+        <div id="gridContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
 
-        <!-- Rejilla de Tarjetas de Vivienda -->
-        <div id="listings-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Cargado dinámicamente con JS -->
-        </div>
-
-        <!-- Estado Vacío -->
-        <div id="empty-state" class="hidden bg-white rounded-2xl p-12 text-center border border-slate-200 space-y-3">
-            <i class="fa-solid fa-house-circle-xmark text-5xl text-slate-300"></i>
-            <h3 class="text-lg font-bold text-slate-700">No se encontraron chalets con esos criterios</h3>
-            <p class="text-xs text-slate-500 max-w-md mx-auto">Prueba a aumentar el precio máximo o desactivar el filtro estricto de piscina.</p>
-            <button onclick="resetFilters()" class="mt-2 inline-flex items-center px-4 py-2 text-xs font-semibold text-indigo-600 bg-indigo-50 hover:bg-indigo-100 rounded-xl transition">
-                <i class="fa-solid fa-rotate-left mr-1.5"></i> Restablecer Filtros
-            </button>
+        <div id="emptyState" class="hidden bg-white p-12 text-center rounded-xl border border-slate-200">
+            <i class="fa-solid fa-house-circle-xmark text-5xl text-slate-300 mb-4"></i>
+            <h3 class="text-lg font-bold text-slate-700 mb-1">No se encontraron viviendas con estos filtros</h3>
+            <p class="text-slate-500 text-sm">Prueba a ampliar el rango de precio o borrar el texto del buscador.</p>
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
-        <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row justify-between items-center gap-3">
-            <p>© 2026 Buscador Personalizado de Chalets y Viviendas Unifamiliares en Madrid.</p>
-            <p class="flex items-center gap-1">
-                <span>Desplegado en</span>
-                <span class="font-bold text-slate-700"><i class="fa-brands fa-github"></i> GitHub Pages</span>
-            </p>
-        </div>
-    </footer>
-
-    <!-- Script Principal -->
     <script>
-        // Dataset cargado 100% dinámicamente desde la búsqueda en tiempo real de Idealista y Fotocasa
-        const DEFAULT_PROPERTIES = [];
-
         let allListings = [];
-        let favorites = JSON.parse(localStorage.getItem('viviendas_favorites') || '[]');
-        let userNotes = JSON.parse(localStorage.getItem('viviendas_notes') || '{}');
-        let leafletMap = null;
-        let mapMarkers = [];
-        let showingOnlyFavs = false;
 
-        // Inicialización al cargar el DOM
-        document.addEventListener('DOMContentLoaded', async () => {
-            setupEventListeners();
-            await loadData();
-        });
-
-        async function loadData() {
+        async function loadListings() {
             try {
-                let response = await fetch('./data/listings.json');
+                let response = await fetch("./listings.json");
                 if (!response.ok) {
-                    response = await fetch('./listings.json');
+                    response = await fetch("./data/listings.json");
                 }
                 if (response.ok) {
-                    const data = await response.json();
-                    allListings = (Array.isArray(data) && data.length > 0) ? data : DEFAULT_PROPERTIES;
-                } else {
-                    allListings = DEFAULT_PROPERTIES;
+                    allListings = await response.json();
                 }
             } catch (e) {
-                console.warn('Usando dataset predeterminado embebido');
-                allListings = DEFAULT_PROPERTIES;
+                console.error("Error cargando listings.json:", e);
             }
-            if (!allListings || allListings.length === 0) {
-                allListings = DEFAULT_PROPERTIES;
-            }
-            updateFavCount();
-            renderListings();
+            applyFilters();
         }
 
-        function setupEventListeners() {
-            document.getElementById('search-input').addEventListener('input', renderListings);
-            document.getElementById('sort-select').addEventListener('change', renderListings);
-            document.getElementById('portal-select').addEventListener('change', renderListings);
-            document.getElementById('property-type-select').addEventListener('change', renderListings);
-            document.getElementById('bedrooms-select').addEventListener('change', renderListings);
-            document.getElementById('pool-checkbox').addEventListener('change', renderListings);
-
-            const slider = document.getElementById('price-slider');
-            slider.addEventListener('input', (e) => {
-                document.getElementById('price-slider-value').innerText = parseInt(e.target.value).toLocaleString('es-ES') + ' €';
-                renderListings();
-            });
-
-            document.getElementById('btn-view-cards').addEventListener('click', () => setViewMode('cards'));
-            document.getElementById('btn-view-map').addEventListener('click', () => setViewMode('map'));
-            document.getElementById('btn-toggle-favs').addEventListener('click', toggleFavoritesFilter);
+        function updatePriceLabel() {
+            const val = document.getElementById("priceRange").value;
+            document.getElementById("priceVal").innerText = parseInt(val).toLocaleString("es-ES") + " €";
         }
 
-        function filterAndSortListings() {
-            const searchTerm = document.getElementById('search-input').value.toLowerCase();
-            const maxPrice = parseInt(document.getElementById('price-slider').value);
-            const portal = document.getElementById('portal-select').value;
-            const propertyType = document.getElementById('property-type-select').value;
-            const minBedrooms = parseInt(document.getElementById('bedrooms-select').value);
-            const poolOnly = document.getElementById('pool-checkbox').checked;
-            const sortOption = document.getElementById('sort-select').value;
+        function applyFilters() {
+            const sortVal = document.getElementById("sortSelect").value;
+            const searchVal = document.getElementById("searchInput").value.toLowerCase();
+            const maxPrice = parseInt(document.getElementById("priceRange").value);
+            const portalVal = document.getElementById("portalSelect").value;
 
             let filtered = allListings.filter(item => {
-                // Filtro por precio
                 if (item.price > maxPrice) return false;
-
-                // Filtro por portal
-                if (portal !== 'all' && item.portal !== portal) return false;
-
-                // Filtro por tipo de propiedad
-                if (propertyType !== 'all-chalets' && item.property_type !== propertyType) return false;
-
-                // Filtro por dormitorios (3+ o 4+)
-                if (item.bedrooms < minBedrooms) return false;
-
-                // Filtro por Piscina
-                if (poolOnly) {
-                    const hasPool = item.features.some(f => f.toLowerCase().includes('piscina')) || 
-                                    item.title.toLowerCase().includes('piscina');
-                    if (!hasPool) return false;
+                if (portalVal !== "all" && item.portal !== portalVal) return false;
+                if (searchVal) {
+                    const text = (item.title + " " + item.location + " " + (item.features || []).join(" ")).toLowerCase();
+                    if (!text.includes(searchVal)) return false;
                 }
-
-                // Filtro por favoritos
-                if (showingOnlyFavs && !favorites.includes(item.id)) return false;
-
-                // Búsqueda libre por texto
-                if (searchTerm) {
-                    const matchTitle = item.title.toLowerCase().includes(searchTerm);
-                    const matchLocation = item.location.toLowerCase().includes(searchTerm);
-                    const matchFeatures = item.features.some(f => f.toLowerCase().includes(searchTerm));
-                    if (!matchTitle && !matchLocation && !matchFeatures) return false;
-                }
-
                 return true;
             });
 
-            // Lógica de Ordenación
-            filtered.sort((a, b) => {
-                if (sortOption === 'price-asc') return a.price - b.price;
-                if (sortOption === 'price-desc') return b.price - a.price;
-                if (sortOption === 'price-m2-asc') return a.price_per_m2 - b.price_per_m2;
-                if (sortOption === 'size-desc') return b.size_m2 - a.size_m2;
-                if (sortOption === 'date-desc') return new Date(b.updated_at) - new Date(a.updated_at);
-                return 0;
-            });
+            if (sortVal === "price-asc") {
+                filtered.sort((a, b) => a.price - b.price);
+            } else if (sortVal === "price-desc") {
+                filtered.sort((a, b) => b.price - a.price);
+            } else if (sortVal === "m2-desc") {
+                filtered.sort((a, b) => b.size_m2 - a.size_m2);
+            } else if (sortVal === "price-m2-asc") {
+                filtered.sort((a, b) => a.price_per_m2 - b.price_per_m2);
+            }
 
-            return filtered;
+            renderGrid(filtered);
         }
 
-        function renderListings() {
-            const items = filterAndSortListings();
-            const grid = document.getElementById('listings-grid');
-            const emptyState = document.getElementById('empty-state');
+        function renderGrid(listings) {
+            const container = document.getElementById("gridContainer");
+            const empty = document.getElementById("emptyState");
+            container.innerHTML = "";
 
-            updateStats(items);
+            document.getElementById("totalCount").innerText = listings.length;
+            if (listings.length > 0 && listings[0].updated_at) {
+                const dt = new Date(listings[0].updated_at);
+                document.getElementById("lastUpdated").innerText = dt.toLocaleTimeString("es-ES", {hour: "2-digit", minute: "2-digit"});
+            }
 
-            if (items.length === 0) {
-                grid.innerHTML = '';
-                emptyState.classList.remove('hidden');
+            if (listings.length === 0) {
+                empty.classList.remove("hidden");
                 return;
             } else {
-                emptyState.classList.add('hidden');
+                empty.classList.add("hidden");
             }
 
-            grid.innerHTML = items.map(item => createCardHTML(item)).join('');
+            listings.forEach(item => {
+                const portalBadge = item.portal === "Idealista" 
+                    ? `<span class="bg-lime-500 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-sm"><i class="fa-solid fa-building text-xs mr-1"></i> Idealista</span>`
+                    : `<span class="bg-blue-600 text-white text-xs font-bold px-2.5 py-1 rounded-full shadow-sm"><i class="fa-solid fa-house text-xs mr-1"></i> Fotocasa</span>`;
 
-            if (leafletMap && !document.getElementById('map-container').classList.contains('hidden')) {
-                updateMapMarkers(items);
-            }
-        }
-
-        function createCardHTML(item) {
-            const isFav = favorites.includes(item.id);
-            const badgeClass = item.portal === 'Idealista' ? 'badge-idealista' : 'badge-fotocasa';
-            const note = userNotes[item.id] || '';
-
-            return `
-                <div class="property-card bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
-                    <div>
-                        <!-- Imagen y Badges -->
-                        <div class="relative h-48 w-full bg-slate-200 overflow-hidden">
-                            <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover">
-                            <div class="absolute top-3 left-3 flex gap-2">
-                                <span class="text-xs font-bold px-2.5 py-1 rounded-full shadow-md ${badgeClass}">${item.portal}</span>
-                                <span class="text-xs font-bold px-2.5 py-1 rounded-full shadow-md bg-slate-900/80 text-white backdrop-blur-sm">${item.property_type || 'Chalet'}</span>
+                const cardHtml = `
+                    <div class="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+                        <div>
+                            <div class="relative h-56 overflow-hidden group">
+                                <img src="${item.image}" alt="${item.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" onerror="this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'">
+                                <div class="absolute top-3 left-3 flex gap-2">
+                                    ${portalBadge}
+                                </div>
+                                <div class="absolute bottom-3 right-3 bg-slate-900/80 backdrop-blur-md text-white px-3 py-1 rounded-lg text-xs font-semibold">
+                                    ${item.price_per_m2} €/m²
+                                </div>
                             </div>
-                            <button onclick="toggleFav('${item.id}')" class="absolute top-3 right-3 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center text-slate-400 hover:text-amber-500 shadow-md transition">
-                                <i class="fa-solid fa-star text-lg ${isFav ? 'text-amber-500' : ''}"></i>
-                            </button>
-                            <div class="absolute bottom-3 right-3 bg-slate-900/90 text-white font-extrabold text-lg px-3 py-1 rounded-xl shadow-lg">
-                                ${item.price.toLocaleString('es-ES')} €
+                            <div class="p-5">
+                                <div class="flex justify-between items-baseline mb-2">
+                                    <span class="text-2xl font-extrabold text-indigo-900">${item.price.toLocaleString("es-ES")} €</span>
+                                    <span class="text-xs font-semibold text-slate-500"><i class="fa-solid fa-vector-square text-indigo-500 mr-1"></i> ${item.size_m2} m²</span>
+                                </div>
+                                <h3 class="font-bold text-slate-800 text-base leading-snug mb-2 line-clamp-2">${item.title}</h3>
+                                <p class="text-slate-500 text-xs mb-4 flex items-center"><i class="fa-solid fa-location-dot text-rose-500 mr-1.5"></i> ${item.location}</p>
+                                <div class="flex flex-wrap gap-1.5 mb-4">
+                                    ${(item.features || []).map(f => `<span class="bg-slate-100 text-slate-600 text-xs font-medium px-2 py-0.5 rounded-md border border-slate-200">${f}</span>`).join("")}
+                                </div>
                             </div>
                         </div>
-
-                        <!-- Detalle -->
-                        <div class="p-5 space-y-3">
-                            <h2 class="font-bold text-slate-800 text-base line-clamp-2 hover:text-indigo-600 transition">
-                                <a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>
-                            </h2>
-
-                            <p class="text-xs text-slate-500 font-medium flex items-center gap-1.5">
-                                <i class="fa-solid fa-location-dot text-indigo-500"></i> ${item.location}
-                            </p>
-
-                            <!-- Specs Grid -->
-                            <div class="grid grid-cols-3 gap-2 py-2 px-3 bg-slate-50 rounded-xl border border-slate-100 text-center text-xs">
-                                <div>
-                                    <span class="text-slate-400 block text-[10px]">Habitaciones</span>
-                                    <span class="font-bold text-slate-700"><i class="fa-solid fa-bed text-indigo-500 mr-1"></i>${item.bedrooms} habs</span>
-                                </div>
-                                <div class="border-x border-slate-200">
-                                    <span class="text-slate-400 block text-[10px]">Superficie</span>
-                                    <span class="font-bold text-slate-700"><i class="fa-solid fa-ruler-combined text-indigo-500 mr-1"></i>${item.size_m2} m²</span>
-                                </div>
-                                <div>
-                                    <span class="text-slate-400 block text-[10px]">Precio / m²</span>
-                                    <span class="font-bold text-slate-700">${item.price_per_m2} €</span>
-                                </div>
-                            </div>
-
-                            <!-- Características / Extras -->
-                            <div class="flex flex-wrap gap-1.5 pt-1">
-                                ${item.features.map(f => `<span class="bg-indigo-50 text-indigo-700 border border-indigo-100 text-[11px] font-medium px-2 py-0.5 rounded-md"><i class="fa-solid fa-check text-[9px] mr-1"></i>${f}</span>`).join('')}
-                            </div>
-
-                            <!-- Notas Privadas del Usuario -->
-                            <div class="pt-2">
-                                <input type="text" placeholder="✍️ Añadir nota privada (ej: llamar lunes)" 
-                                    value="${note}" 
-                                    onchange="saveNote('${item.id}', this.value)"
-                                    class="w-full text-xs bg-slate-50 border border-slate-200 rounded-lg px-2.5 py-1.5 focus:bg-white focus:ring-1 focus:ring-indigo-500 focus:outline-none">
-                            </div>
+                        <div class="px-5 pb-5 pt-0">
+                            <a href="${item.url}" target="_blank" class="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 transition-colors shadow-md text-sm">
+                                <span>Ver Anuncio Original</span>
+                                <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </a>
                         </div>
                     </div>
-
-                    <!-- Botón Enlace Original -->
-                    <div class="p-5 pt-0">
-                        <a href="${item.url}" target="_blank" rel="noopener" 
-                           class="w-full py-2.5 px-4 bg-slate-900 hover:bg-indigo-600 text-white rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition shadow-sm">
-                            Ver Anuncio Original en ${item.portal} <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
-                        </a>
-                    </div>
-                </div>
-            `;
-        }
-
-        function updateStats(items) {
-            document.getElementById('stat-total').innerText = items.length;
-            if (items.length === 0) {
-                document.getElementById('stat-min-price').innerText = '0 €';
-                document.getElementById('stat-avg-price').innerText = '0 €';
-                return;
-            }
-            const minPrice = Math.min(...items.map(i => i.price));
-            const avgPrice = Math.round(items.reduce((sum, i) => sum + i.price, 0) / items.length);
-
-            document.getElementById('stat-min-price').innerText = minPrice.toLocaleString('es-ES') + ' €';
-            document.getElementById('stat-avg-price').innerText = avgPrice.toLocaleString('es-ES') + ' €';
-        }
-
-        function setZoneFilter(zone) {
-            document.getElementById('search-input').value = zone;
-            renderListings();
-        }
-
-        function resetFilters() {
-            document.getElementById('search-input').value = '';
-            document.getElementById('price-slider').value = 750000;
-            document.getElementById('price-slider-value').innerText = '750.000 €';
-            document.getElementById('portal-select').value = 'all';
-            document.getElementById('property-type-select').value = 'all-chalets';
-            document.getElementById('bedrooms-select').value = '3';
-            document.getElementById('pool-checkbox').checked = true;
-            document.getElementById('sort-select').value = 'price-asc';
-            showingOnlyFavs = false;
-            renderListings();
-        }
-
-        function toggleFav(id) {
-            if (favorites.includes(id)) {
-                favorites = favorites.filter(f => f !== id);
-            } else {
-                favorites.push(id);
-            }
-            localStorage.setItem('viviendas_favorites', JSON.stringify(favorites));
-            updateFavCount();
-            renderListings();
-        }
-
-        function saveNote(id, text) {
-            userNotes[id] = text;
-            localStorage.setItem('viviendas_notes', JSON.stringify(userNotes));
-        }
-
-        function updateFavCount() {
-            document.getElementById('fav-count').innerText = favorites.length;
-        }
-
-        function toggleFavoritesFilter() {
-            showingOnlyFavs = !showingOnlyFavs;
-            const btn = document.getElementById('btn-toggle-favs');
-            if (showingOnlyFavs) {
-                btn.classList.add('bg-amber-500', 'text-white');
-                btn.classList.remove('bg-amber-50', 'text-amber-700');
-            } else {
-                btn.classList.remove('bg-amber-500', 'text-white');
-                btn.classList.add('bg-amber-50', 'text-amber-700');
-            }
-            renderListings();
-        }
-
-        function setViewMode(mode) {
-            const cardsBtn = document.getElementById('btn-view-cards');
-            const mapBtn = document.getElementById('btn-view-map');
-            const grid = document.getElementById('listings-grid');
-            const mapContainer = document.getElementById('map-container');
-
-            if (mode === 'map') {
-                cardsBtn.classList.replace('bg-indigo-600', 'bg-slate-100');
-                cardsBtn.classList.replace('text-white', 'text-slate-700');
-                mapBtn.classList.replace('bg-slate-100', 'bg-indigo-600');
-                mapBtn.classList.replace('text-slate-700', 'text-white');
-
-                grid.classList.add('hidden');
-                mapContainer.classList.remove('hidden');
-
-                if (!leafletMap) {
-                    initMap();
-                } else {
-                    updateMapMarkers(filterAndSortListings());
-                }
-            } else {
-                mapBtn.classList.replace('bg-indigo-600', 'bg-slate-100');
-                mapBtn.classList.replace('text-white', 'text-slate-700');
-                cardsBtn.classList.replace('bg-slate-100', 'bg-indigo-600');
-                cardsBtn.classList.replace('text-slate-700', 'text-white');
-
-                mapContainer.classList.add('hidden');
-                grid.classList.remove('hidden');
-            }
-        }
-
-        function initMap() {
-            leafletMap = L.map('map').setView([40.4500, -3.8500], 10);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap contributors'
-            }).addTo(leafletMap);
-
-            updateMapMarkers(filterAndSortListings());
-        }
-
-        function updateMapMarkers(items) {
-            mapMarkers.forEach(m => leafletMap.removeLayer(m));
-            mapMarkers = [];
-
-            items.forEach(item => {
-                if (item.lat && item.lng) {
-                    const marker = L.marker([item.lat, item.lng]).addTo(leafletMap);
-                    marker.bindPopup(`
-                        <div class="text-xs p-1">
-                            <strong class="block font-bold text-sm text-slate-800">${item.title}</strong>
-                            <span class="text-indigo-600 font-extrabold block text-base">${item.price.toLocaleString('es-ES')} €</span>
-                            <span class="text-slate-500 block mb-2">${item.location}</span>
-                            <a href="${item.url}" target="_blank" class="inline-block bg-slate-900 text-white font-bold px-2.5 py-1 rounded text-[11px]">Ver Anuncio</a>
-                        </div>
-                    `);
-                    mapMarkers.push(marker);
-                }
+                `;
+                container.innerHTML += cardHtml;
             });
-
-            if (mapMarkers.length > 0) {
-                const group = new L.featureGroup(mapMarkers);
-                leafletMap.fitBounds(group.getBounds().pad(0.1));
-            }
         }
+
+        window.onload = loadListings;
     </script>
 </body>
 </html>
