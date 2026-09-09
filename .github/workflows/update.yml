@@ -2,7 +2,6 @@ name: Cron de Busqueda y Despliegue de Panel
 
 on:
   schedule:
-    # Se ejecuta cada hora de 07:00 a 23:00 (hora espanola)
     - cron: '0 5-21 * * *'
   workflow_dispatch:
 
@@ -18,7 +17,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout del codigo
         uses: actions/checkout@v4
 
       - name: Configurar Python
@@ -26,7 +25,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Ejecutar Cron de Busqueda y volcado a listings.json
+      - name: Ejecutar Cron de Busqueda
         run: |
           python scraper.py
 
@@ -35,13 +34,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff-index --quiet HEAD || git commit -m "chore: actualizar listings.json [skip ci]"
+          git commit -m "chore: actualización de viviendas (ejecución ${{ github.run_number }})" || echo "No changes to commit"
           git push || true
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Empaquetar artefectos
+      - name: Empaquetar artefactos
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
