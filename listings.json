@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216626Z"
+    "updated_at": "2026-09-16T07:03:39.749540Z"
   },
   {
     "id": "fc_187569665",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216669Z"
+    "updated_at": "2026-09-16T07:03:39.749598Z"
   },
   {
     "id": "fc_189108519",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.550966Z"
+    "updated_at": "2026-09-16T07:03:38.828731Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551150Z"
+    "updated_at": "2026-09-16T07:03:38.828958Z"
   },
   {
     "id": "fc_189564146",
@@ -102,7 +102,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551495Z"
+    "updated_at": "2026-09-16T07:03:38.829349Z"
+  },
+  {
+    "id": "fc_190683588",
+    "title": "Housfy vende 🏡 luminoso piso ubicado en Alcorcón, el cuál consta de 62m2 útiles (verificados con la Direcci...",
+    "portal": "Fotocasa",
+    "price": 235000,
+    "price_per_m2": 1068,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Plaza Sierra de la Pedriza, Zona Centro Joven, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-ascensor/190683588/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-16T07:03:38.829318Z"
   },
   {
     "id": "fc_190367601",
@@ -123,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216954Z"
+    "updated_at": "2026-09-16T07:03:39.749886Z"
   },
   {
     "id": "fc_189783507",
@@ -144,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216813Z"
+    "updated_at": "2026-09-16T07:03:39.749747Z"
   },
   {
     "id": "fc_190416257",
@@ -165,28 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216844Z"
-  },
-  {
-    "id": "fc_188387753",
-    "title": "Grupo Inmobiliario Ares vende en Calle del Nuncio acogedor piso de 78 m² construidos, distribuido en 2 dorm...",
-    "portal": "Fotocasa",
-    "price": 249000,
-    "price_per_m2": 1132,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle del Nuncio, Casco Antiguo, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-ascensor-amueblado/188387753/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-16T06:02:50.551545Z"
+    "updated_at": "2026-09-16T07:03:39.749779Z"
   },
   {
     "id": "fc_189962802",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551015Z"
+    "updated_at": "2026-09-16T07:03:38.828813Z"
   },
   {
     "id": "fc_190759258",
@@ -228,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551319Z"
+    "updated_at": "2026-09-16T07:03:38.829158Z"
   },
   {
     "id": "fc_190165466",
@@ -249,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216607Z"
+    "updated_at": "2026-09-16T07:03:39.749521Z"
   },
   {
     "id": "fc_190203046",
@@ -270,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.550922Z"
+    "updated_at": "2026-09-16T07:03:38.828995Z"
   },
   {
     "id": "fc_189695730",
@@ -291,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551291Z"
+    "updated_at": "2026-09-16T07:03:38.829129Z"
   },
   {
     "id": "fc_189315951",
@@ -312,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216882Z"
+    "updated_at": "2026-09-16T07:03:39.749815Z"
   },
   {
     "id": "fc_189849794",
@@ -333,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216543Z"
+    "updated_at": "2026-09-16T07:03:39.749457Z"
   },
   {
     "id": "fc_189944895",
@@ -354,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:48.426238Z"
+    "updated_at": "2026-09-16T07:03:35.131550Z"
   },
   {
     "id": "fc_190050376",
@@ -375,7 +375,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551130Z"
+    "updated_at": "2026-09-16T07:03:38.828936Z"
+  },
+  {
+    "id": "fc_186777175",
+    "title": "¡¡¡ POSIBILIDAD DE FINANCIAR EL 100% DEL VALOR DE LA VIVIENDA, ASESORAMIENTO GRATUITO !!!\n\n¡Descubre tu nue...",
+    "portal": "Fotocasa",
+    "price": 305000,
+    "price_per_m2": 1386,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Norte - Universidad, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza-ascensor/186777175/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-16T07:03:39.749380Z"
   },
   {
     "id": "fc_190569510",
@@ -396,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551237Z"
+    "updated_at": "2026-09-16T07:03:38.829069Z"
   },
   {
     "id": "fc_190119701",
@@ -417,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551469Z"
+    "updated_at": "2026-09-16T07:03:38.829292Z"
   },
   {
     "id": "fc_189980540",
@@ -438,7 +459,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:49.752536Z"
+    "updated_at": "2026-09-16T07:03:37.598104Z"
+  },
+  {
+    "id": "fc_190400091",
+    "title": "Hogares Pozuelo presenta una excelente oportunidad para quienes buscan diseñar una vivienda completamente a...",
+    "portal": "Fotocasa",
+    "price": 319000,
+    "price_per_m2": 1450,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle de Cirilo Palomo, Pueblo, Pozuelo de Alarcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/pozuelo-de-alarcon/aire-acondicionado-calefaccion-no-amueblado/190400091/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-16T07:03:37.598271Z"
   },
   {
     "id": "fc_189654276",
@@ -459,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551098Z"
+    "updated_at": "2026-09-16T07:03:38.828900Z"
   },
   {
     "id": "fc_190696850",
@@ -480,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216583Z"
+    "updated_at": "2026-09-16T07:03:39.749496Z"
   },
   {
     "id": "fc_190144377",
@@ -501,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:49.045903Z"
+    "updated_at": "2026-09-16T07:03:36.376760Z"
   },
   {
     "id": "fc_190716476",
@@ -522,7 +564,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551254Z"
+    "updated_at": "2026-09-16T07:03:38.829087Z"
   },
   {
     "id": "fc_190638332",
@@ -543,7 +585,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551369Z"
+    "updated_at": "2026-09-16T07:03:38.829210Z"
   },
   {
     "id": "fc_190257500",
@@ -564,7 +606,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216928Z"
+    "updated_at": "2026-09-16T07:03:39.749860Z"
   },
   {
     "id": "fc_189692137",
@@ -585,7 +627,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551513Z"
+    "updated_at": "2026-09-16T07:03:38.829369Z"
   },
   {
     "id": "fc_190544045",
@@ -607,7 +649,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551054Z"
+    "updated_at": "2026-09-16T07:03:38.828855Z"
   },
   {
     "id": "fc_190617034",
@@ -628,7 +670,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:50.551342Z"
+    "updated_at": "2026-09-16T07:03:38.829181Z"
   },
   {
     "id": "fc_189772481",
@@ -649,7 +691,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:52.084407Z"
+    "updated_at": "2026-09-16T07:03:40.982268Z"
   },
   {
     "id": "fc_190134874",
@@ -671,7 +713,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:52.084472Z"
+    "updated_at": "2026-09-16T07:03:40.982330Z"
   },
   {
     "id": "fc_190284979",
@@ -693,7 +735,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:49.045926Z"
+    "updated_at": "2026-09-16T07:03:36.376783Z"
   },
   {
     "id": "fc_189654022",
@@ -715,7 +757,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:49.045868Z"
+    "updated_at": "2026-09-16T07:03:36.376721Z"
   },
   {
     "id": "fc_188514678",
@@ -736,6 +778,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T06:02:51.216483Z"
+    "updated_at": "2026-09-16T07:03:39.749414Z"
   }
 ]
