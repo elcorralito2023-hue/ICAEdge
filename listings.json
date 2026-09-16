@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940386Z"
+    "updated_at": "2026-09-16T09:02:40.670213Z"
   },
   {
     "id": "fc_187569665",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940432Z"
+    "updated_at": "2026-09-16T09:02:40.670258Z"
   },
   {
     "id": "fc_189108519",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657219Z"
+    "updated_at": "2026-09-16T09:02:39.409619Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657410Z"
+    "updated_at": "2026-09-16T09:02:39.409820Z"
   },
   {
     "id": "fc_189564146",
@@ -102,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657776Z"
+    "updated_at": "2026-09-16T09:02:39.410212Z"
   },
   {
     "id": "fc_190683588",
@@ -123,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657746Z"
+    "updated_at": "2026-09-16T09:02:39.410183Z"
   },
   {
     "id": "fc_190367601",
@@ -144,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940732Z"
+    "updated_at": "2026-09-16T09:02:40.670566Z"
   },
   {
     "id": "fc_189783507",
@@ -165,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940590Z"
+    "updated_at": "2026-09-16T09:02:40.670404Z"
   },
   {
     "id": "fc_190416257",
@@ -186,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940622Z"
+    "updated_at": "2026-09-16T09:02:40.670459Z"
   },
   {
     "id": "fc_189962802",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657276Z"
+    "updated_at": "2026-09-16T09:02:39.409685Z"
   },
   {
     "id": "fc_190759258",
@@ -228,7 +228,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657585Z"
+    "updated_at": "2026-09-16T09:02:39.410014Z"
+  },
+  {
+    "id": "fc_190522879",
+    "title": "GRUPO GISA VENDE PISO en zona inmejorable del municipio de Móstoles. Zona con todos los servicios y prestac...",
+    "portal": "Fotocasa",
+    "price": 259000,
+    "price_per_m2": 1177,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Miguel Ángel, 15, Norte - Universidad, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/terraza-ascensor-no-amueblado/190522879/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-16T09:02:40.670426Z"
   },
   {
     "id": "fc_190165466",
@@ -249,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940365Z"
+    "updated_at": "2026-09-16T09:02:40.670191Z"
   },
   {
     "id": "fc_190203046",
@@ -270,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657172Z"
+    "updated_at": "2026-09-16T09:02:39.409856Z"
   },
   {
     "id": "fc_189695730",
@@ -291,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657557Z"
+    "updated_at": "2026-09-16T09:02:39.409986Z"
   },
   {
     "id": "fc_189315951",
@@ -312,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940660Z"
+    "updated_at": "2026-09-16T09:02:40.670496Z"
   },
   {
     "id": "fc_189849794",
@@ -333,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940293Z"
+    "updated_at": "2026-09-16T09:02:40.670136Z"
   },
   {
     "id": "fc_189944895",
@@ -354,29 +375,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:31.503961Z"
+    "updated_at": "2026-09-16T09:02:35.623516Z"
   },
   {
-    "id": "fc_189087211",
-    "title": "Hogares Las Rozas Centro tiene el placer de presentar este acogedor y funcional piso situado en la zona de ...",
+    "id": "fc_189887813",
+    "title": "Caolves Inmobiliaria\nDispone de vivienda en casco urbano de Pozuelo de Alarcón a 200 m2 de la Plaza del ayu...",
     "portal": "Fotocasa",
-    "price": 299000,
-    "price_per_m2": 1359,
+    "price": 297000,
+    "price_per_m2": 1350,
     "size_m2": 220,
     "bedrooms": 4,
     "bathrooms": 2,
     "floor": "Chalet / Unifamiliar",
-    "location": "Avenida España, El Burgo, Las Rozas",
+    "location": "Reina Mercedes , Pueblo, Pozuelo de Alarcón",
     "lat": 40.45,
     "lng": -3.87,
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-terraza-ascensor-piscina-no-amueblado/189087211/d",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/pozuelo-de-alarcon/calefaccion/189887813/d",
     "features": [
-      "Piscina",
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:31.503275Z"
+    "updated_at": "2026-09-16T09:02:38.134923Z"
   },
   {
     "id": "fc_190050376",
@@ -397,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657390Z"
+    "updated_at": "2026-09-16T09:02:39.409800Z"
   },
   {
     "id": "fc_190569510",
@@ -418,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657499Z"
+    "updated_at": "2026-09-16T09:02:39.409928Z"
   },
   {
     "id": "fc_190119701",
@@ -439,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657722Z"
+    "updated_at": "2026-09-16T09:02:39.410159Z"
   },
   {
     "id": "fc_189980540",
@@ -460,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:33.124144Z"
+    "updated_at": "2026-09-16T09:02:38.134892Z"
   },
   {
     "id": "fc_190400091",
@@ -481,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:33.124321Z"
+    "updated_at": "2026-09-16T09:02:38.135085Z"
   },
   {
     "id": "fc_189654276",
@@ -502,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657358Z"
+    "updated_at": "2026-09-16T09:02:39.409768Z"
   },
   {
     "id": "fc_190696850",
@@ -523,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940338Z"
+    "updated_at": "2026-09-16T09:02:40.670166Z"
   },
   {
     "id": "fc_190144377",
@@ -544,7 +564,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:32.413560Z"
+    "updated_at": "2026-09-16T09:02:36.847592Z"
   },
   {
     "id": "fc_190716476",
@@ -565,7 +585,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657520Z"
+    "updated_at": "2026-09-16T09:02:39.409948Z"
   },
   {
     "id": "fc_190638332",
@@ -586,7 +606,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657636Z"
+    "updated_at": "2026-09-16T09:02:39.410073Z"
   },
   {
     "id": "fc_190257500",
@@ -607,7 +627,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940705Z"
+    "updated_at": "2026-09-16T09:02:40.670541Z"
   },
   {
     "id": "fc_189692137",
@@ -628,7 +648,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657795Z"
+    "updated_at": "2026-09-16T09:02:39.410229Z"
   },
   {
     "id": "fc_190544045",
@@ -650,7 +670,29 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657315Z"
+    "updated_at": "2026-09-16T09:02:39.409727Z"
+  },
+  {
+    "id": "fc_190806061",
+    "title": "Agencia inmobiliaria Hogares Parque Coímbra vende este amplio chalet adosado de tres plantas, una vivienda ...",
+    "portal": "Fotocasa",
+    "price": 459900,
+    "price_per_m2": 2090,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle de las Encinas, 61, Parque Coimbra, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-parking-jardin-patio-piscina-no-amueblado/190806061/d",
+    "features": [
+      "Piscina",
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-16T09:02:40.670632Z"
   },
   {
     "id": "fc_190617034",
@@ -671,7 +713,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:34.657607Z"
+    "updated_at": "2026-09-16T09:02:39.410036Z"
   },
   {
     "id": "fc_189772481",
@@ -692,7 +734,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:37.212946Z"
+    "updated_at": "2026-09-16T09:02:41.909918Z"
   },
   {
     "id": "fc_190134874",
@@ -714,7 +756,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:37.213017Z"
+    "updated_at": "2026-09-16T09:02:41.909984Z"
   },
   {
     "id": "fc_190284979",
@@ -736,7 +778,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:32.413583Z"
+    "updated_at": "2026-09-16T09:02:36.847614Z"
   },
   {
     "id": "fc_189654022",
@@ -758,7 +800,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:32.413524Z"
+    "updated_at": "2026-09-16T09:02:36.847556Z"
   },
   {
     "id": "fc_188514678",
@@ -779,6 +821,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-16T08:02:35.940225Z"
+    "updated_at": "2026-09-16T09:02:40.670077Z"
   }
 ]
