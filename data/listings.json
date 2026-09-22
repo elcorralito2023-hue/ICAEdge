@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573726Z"
+    "updated_at": "2026-09-22T11:02:33.037970Z"
   },
   {
     "id": "fc_187569665",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573789Z"
+    "updated_at": "2026-09-22T11:02:33.038033Z"
   },
   {
     "id": "fc_190077964",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800167Z"
+    "updated_at": "2026-09-22T11:02:32.280510Z"
   },
   {
     "id": "fc_190631241",
@@ -81,28 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573820Z"
-  },
-  {
-    "id": "fc_190683588",
-    "title": "Housfy vende 🏡 luminoso piso ubicado en Alcorcón, el cuál consta de 62m2 útiles (verificados con la Direcci...",
-    "portal": "Fotocasa",
-    "price": 215000,
-    "price_per_m2": 977,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Plaza Sierra de la Pedriza, Zona Centro Joven, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/ascensor/190683588/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-22T10:02:26.800108Z"
+    "updated_at": "2026-09-22T11:02:33.038064Z"
   },
   {
     "id": "fc_189721812",
@@ -123,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573600Z"
+    "updated_at": "2026-09-22T11:02:33.037844Z"
   },
   {
     "id": "fc_189564146",
@@ -144,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799651Z"
+    "updated_at": "2026-09-22T11:02:32.280025Z"
   },
   {
     "id": "fc_189592161",
@@ -165,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799863Z"
+    "updated_at": "2026-09-22T11:02:32.280235Z"
   },
   {
     "id": "fc_190858978",
@@ -186,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573760Z"
+    "updated_at": "2026-09-22T11:02:33.038004Z"
   },
   {
     "id": "fc_190443085",
@@ -207,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800187Z"
+    "updated_at": "2026-09-22T11:02:32.280531Z"
   },
   {
     "id": "fc_189783507",
@@ -228,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573926Z"
+    "updated_at": "2026-09-22T11:02:33.038228Z"
   },
   {
     "id": "fc_190416257",
@@ -249,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573957Z"
+    "updated_at": "2026-09-22T11:02:33.038196Z"
   },
   {
     "id": "fc_190129755",
@@ -270,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799670Z"
+    "updated_at": "2026-09-22T11:02:32.280043Z"
   },
   {
     "id": "fc_188387753",
@@ -291,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799844Z"
+    "updated_at": "2026-09-22T11:02:32.280215Z"
   },
   {
     "id": "fc_190843596",
@@ -312,7 +291,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800222Z"
+    "updated_at": "2026-09-22T11:02:32.280566Z"
+  },
+  {
+    "id": "fc_190827202",
+    "title": "“Él me dice que quiere estar conmigo, yo le digo que no es fácil enamorarse... de una superestrella” Pero l...",
+    "portal": "Fotocasa",
+    "price": 250000,
+    "price_per_m2": 1136,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Calle Villaamil, Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza-ascensor/190827202/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-22T11:02:33.038166Z"
   },
   {
     "id": "fc_190165466",
@@ -333,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573707Z"
+    "updated_at": "2026-09-22T11:02:33.037936Z"
   },
   {
     "id": "fc_189695730",
@@ -354,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799937Z"
+    "updated_at": "2026-09-22T11:02:32.280327Z"
   },
   {
     "id": "fc_190203046",
@@ -375,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799955Z"
+    "updated_at": "2026-09-22T11:02:32.280345Z"
   },
   {
     "id": "fc_189315951",
@@ -396,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573993Z"
+    "updated_at": "2026-09-22T11:02:33.038265Z"
   },
   {
     "id": "fc_189849794",
@@ -417,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573522Z"
+    "updated_at": "2026-09-22T11:02:33.037798Z"
   },
   {
     "id": "fc_190050376",
@@ -438,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799814Z"
+    "updated_at": "2026-09-22T11:02:32.280189Z"
   },
   {
     "id": "fc_190735251",
@@ -459,7 +459,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573684Z"
+    "updated_at": "2026-09-22T11:02:33.037913Z"
+  },
+  {
+    "id": "fc_189946914",
+    "title": "B-HOME Majadahonda presenta una vivienda a estrenar en una de las zonas más demandadas de Majadahonda. Este...",
+    "portal": "Fotocasa",
+    "price": 299990,
+    "price_per_m2": 1364,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle del Doctor Calero, 42, Casco Antiguo, Majadahonda",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/majadahonda/aire-acondicionado-calefaccion-ascensor-internet-no-amueblado/189946914/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-22T11:02:30.976073Z"
   },
   {
     "id": "fc_190887922",
@@ -480,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799917Z"
+    "updated_at": "2026-09-22T11:02:32.280288Z"
   },
   {
     "id": "fc_190119701",
@@ -501,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800060Z"
+    "updated_at": "2026-09-22T11:02:32.280432Z"
   },
   {
     "id": "fc_190094652",
@@ -522,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.159422Z"
+    "updated_at": "2026-09-22T11:02:31.771920Z"
   },
   {
     "id": "fc_190400091",
@@ -543,7 +564,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.159468Z"
+    "updated_at": "2026-09-22T11:02:31.771980Z"
   },
   {
     "id": "fc_190404684",
@@ -564,7 +585,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800242Z"
+    "updated_at": "2026-09-22T11:02:32.280585Z"
   },
   {
     "id": "fc_189654276",
@@ -585,7 +606,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799785Z"
+    "updated_at": "2026-09-22T11:02:32.280158Z"
   },
   {
     "id": "fc_190696850",
@@ -606,28 +627,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573637Z"
-  },
-  {
-    "id": "fc_190144377",
-    "title": "HOGARES MAJADAHONDA GOLF VENDE en exclusiva vivienda totalmente reformada de tres dormitorios con un cuarto...",
-    "portal": "Fotocasa",
-    "price": 359900,
-    "price_per_m2": 1636,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle de Babieca, 12, Casco Antiguo, Majadahonda",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/majadahonda/calefaccion-no-amueblado/190144377/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-22T10:02:25.578113Z"
+    "updated_at": "2026-09-22T11:02:33.037869Z"
   },
   {
     "id": "fc_190638332",
@@ -648,7 +648,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799983Z"
+    "updated_at": "2026-09-22T11:02:32.280373Z"
   },
   {
     "id": "fc_189692137",
@@ -669,7 +669,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800128Z"
+    "updated_at": "2026-09-22T11:02:32.280472Z"
   },
   {
     "id": "fc_189068146",
@@ -690,7 +690,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800147Z"
+    "updated_at": "2026-09-22T11:02:32.280491Z"
   },
   {
     "id": "fc_189940771",
@@ -712,7 +712,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800084Z"
+    "updated_at": "2026-09-22T11:02:32.280455Z"
   },
   {
     "id": "fc_190544045",
@@ -734,7 +734,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799743Z"
+    "updated_at": "2026-09-22T11:02:32.280115Z"
   },
   {
     "id": "fc_188812444",
@@ -755,7 +755,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.800001Z"
+    "updated_at": "2026-09-22T11:02:32.279909Z"
   },
   {
     "id": "fc_190617034",
@@ -776,7 +776,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:26.799592Z"
+    "updated_at": "2026-09-22T11:02:32.279976Z"
   },
   {
     "id": "fc_189772481",
@@ -797,7 +797,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:28.223436Z"
+    "updated_at": "2026-09-22T11:02:33.640582Z"
   },
   {
     "id": "fc_190134874",
@@ -819,7 +819,29 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:28.223516Z"
+    "updated_at": "2026-09-22T11:02:33.640644Z"
+  },
+  {
+    "id": "fc_190284979",
+    "title": "HOGARES MAJADAHONDA VENDE EN EXCLUSIVA estupendo piso totalmente reformado de dos dormitorios con dos cuart...",
+    "portal": "Fotocasa",
+    "price": 595000,
+    "price_per_m2": 2705,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida Rey Juan Carlos I, Zona Monte El Pilar, Majadahonda",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/majadahonda/aire-acondicionado-calefaccion-parking-terraza-zona-comunitaria-ascensor-piscina-no-amueblado/190284979/d",
+    "features": [
+      "Piscina",
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-22T11:02:30.976306Z"
   },
   {
     "id": "fc_189654022",
@@ -841,7 +863,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:25.578094Z"
+    "updated_at": "2026-09-22T11:02:30.976275Z"
   },
   {
     "id": "fc_188514678",
@@ -862,7 +884,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:27.573431Z"
+    "updated_at": "2026-09-22T11:02:33.037744Z"
   },
   {
     "id": "fc_190872288",
@@ -884,6 +906,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-22T10:02:25.577928Z"
+    "updated_at": "2026-09-22T11:02:30.976131Z"
   }
 ]
