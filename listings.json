@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748920Z"
+    "updated_at": "2026-09-23T08:02:16.959803Z"
   },
   {
     "id": "fc_187569665",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748983Z"
+    "updated_at": "2026-09-23T08:02:16.959866Z"
   },
   {
     "id": "fc_190077964",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101619Z"
+    "updated_at": "2026-09-23T08:02:16.308754Z"
   },
   {
     "id": "fc_190631241",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.749031Z"
+    "updated_at": "2026-09-23T08:02:16.959897Z"
   },
   {
     "id": "fc_189721812",
@@ -102,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748808Z"
+    "updated_at": "2026-09-23T08:02:16.959687Z"
   },
   {
     "id": "fc_189564146",
@@ -123,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101115Z"
+    "updated_at": "2026-09-23T08:02:16.308223Z"
   },
   {
     "id": "fc_189592161",
@@ -144,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101323Z"
+    "updated_at": "2026-09-23T08:02:16.308435Z"
   },
   {
     "id": "fc_190858978",
@@ -165,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748954Z"
+    "updated_at": "2026-09-23T08:02:16.959837Z"
   },
   {
     "id": "fc_190443085",
@@ -186,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101639Z"
+    "updated_at": "2026-09-23T08:02:16.308774Z"
   },
   {
     "id": "fc_189783507",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.749195Z"
+    "updated_at": "2026-09-23T08:02:16.960051Z"
   },
   {
     "id": "fc_190416257",
@@ -228,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.749164Z"
+    "updated_at": "2026-09-23T08:02:16.960018Z"
   },
   {
     "id": "fc_190129755",
@@ -249,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101132Z"
+    "updated_at": "2026-09-23T08:02:16.308242Z"
   },
   {
     "id": "fc_188387753",
@@ -270,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101303Z"
+    "updated_at": "2026-09-23T08:02:16.308415Z"
   },
   {
     "id": "fc_190827202",
@@ -291,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.749133Z"
+    "updated_at": "2026-09-23T08:02:16.959987Z"
   },
   {
     "id": "fc_190165466",
@@ -312,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748901Z"
+    "updated_at": "2026-09-23T08:02:16.959783Z"
   },
   {
     "id": "fc_189695730",
@@ -333,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101410Z"
+    "updated_at": "2026-09-23T08:02:16.308524Z"
   },
   {
     "id": "fc_190203046",
@@ -354,7 +354,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101428Z"
+    "updated_at": "2026-09-23T08:02:16.308542Z"
+  },
+  {
+    "id": "fc_189315951",
+    "title": "Se vende amplio y luminoso piso en la zona de Simón Hernández\r\n\r\nVivienda ubicada en una zona consolidada y...",
+    "portal": "Fotocasa",
+    "price": 280000,
+    "price_per_m2": 1273,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Sur - PAU 4, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor/189315951/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-23T08:02:16.960088Z"
   },
   {
     "id": "fc_189849794",
@@ -375,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748761Z"
+    "updated_at": "2026-09-23T08:02:16.959638Z"
   },
   {
     "id": "fc_190050376",
@@ -396,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101277Z"
+    "updated_at": "2026-09-23T08:02:16.308388Z"
   },
   {
     "id": "fc_190735251",
@@ -417,28 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748878Z"
-  },
-  {
-    "id": "fc_189946914",
-    "title": "B-HOME Majadahonda presenta una vivienda a estrenar en una de las zonas más demandadas de Majadahonda. Este...",
-    "portal": "Fotocasa",
-    "price": 299990,
-    "price_per_m2": 1364,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle del Doctor Calero, 42, Casco Antiguo, Majadahonda",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/majadahonda/aire-acondicionado-calefaccion-ascensor-internet-no-amueblado/189946914/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-23T07:03:13.570185Z"
+    "updated_at": "2026-09-23T08:02:16.959759Z"
   },
   {
     "id": "fc_190887922",
@@ -459,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101373Z"
+    "updated_at": "2026-09-23T08:02:16.308485Z"
   },
   {
     "id": "fc_190119701",
@@ -480,28 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101541Z"
-  },
-  {
-    "id": "fc_189980540",
-    "title": "HOGARES POZUELO VENDE EN EXCLUSIVA\nMagnífico piso con Terraza en Pozuelo de Alarcón\n\nHogares Pozuelo presen...",
-    "portal": "Fotocasa",
-    "price": 313900,
-    "price_per_m2": 1427,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Doctor Cornago, Pueblo, Pozuelo de Alarcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/pozuelo-de-alarcon/aire-acondicionado-calefaccion-terraza-no-amueblado/189980540/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-23T07:03:14.262662Z"
+    "updated_at": "2026-09-23T08:02:16.308675Z"
   },
   {
     "id": "fc_190094652",
@@ -522,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:14.262821Z"
+    "updated_at": "2026-09-23T08:02:15.814291Z"
   },
   {
     "id": "fc_190400091",
@@ -543,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:14.262851Z"
+    "updated_at": "2026-09-23T08:02:15.814335Z"
   },
   {
     "id": "fc_190404684",
@@ -564,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101658Z"
+    "updated_at": "2026-09-23T08:02:16.308793Z"
   },
   {
     "id": "fc_189654276",
@@ -585,7 +564,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101247Z"
+    "updated_at": "2026-09-23T08:02:16.308358Z"
   },
   {
     "id": "fc_190696850",
@@ -606,28 +585,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748834Z"
-  },
-  {
-    "id": "fc_189485378",
-    "title": "¡HOGARES ALCORCON VENDE EN EXCLUSIVA!\n\nExclusiva vivienda situada en una de las zonas más consolidadas y de...",
-    "portal": "Fotocasa",
-    "price": 359900,
-    "price_per_m2": 1636,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Avenida del Alcalde José Aranda, Parque Ondarreta - Urtinsa, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/ascensor/189485378/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-23T07:03:15.101032Z"
+    "updated_at": "2026-09-23T08:02:16.959714Z"
   },
   {
     "id": "fc_190638332",
@@ -648,7 +606,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101456Z"
+    "updated_at": "2026-09-23T08:02:16.308588Z"
   },
   {
     "id": "fc_189692137",
@@ -669,7 +627,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101582Z"
+    "updated_at": "2026-09-23T08:02:16.308715Z"
   },
   {
     "id": "fc_189068146",
@@ -690,7 +648,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101600Z"
+    "updated_at": "2026-09-23T08:02:16.308734Z"
   },
   {
     "id": "fc_189940771",
@@ -712,7 +670,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101565Z"
+    "updated_at": "2026-09-23T08:02:16.308698Z"
   },
   {
     "id": "fc_190544045",
@@ -734,7 +692,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101205Z"
+    "updated_at": "2026-09-23T08:02:16.308316Z"
   },
   {
     "id": "fc_188812444",
@@ -755,7 +713,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101474Z"
+    "updated_at": "2026-09-23T08:02:16.308608Z"
   },
   {
     "id": "fc_190617034",
@@ -776,7 +734,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.101070Z"
+    "updated_at": "2026-09-23T08:02:16.308163Z"
   },
   {
     "id": "fc_189772481",
@@ -797,7 +755,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:16.357081Z"
+    "updated_at": "2026-09-23T08:02:17.591515Z"
+  },
+  {
+    "id": "fc_189688208",
+    "title": "Agencia inmobiliaria en Boadilla del Monte, INMOBILIARIA HOGARES BOADILLA DEL MONTE presenta EN EXCLUSIVA e...",
+    "portal": "Fotocasa",
+    "price": 509900,
+    "price_per_m2": 2318,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Casco Antiguo, Boadilla del Monte",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/boadilla-del-monte/calefaccion-terraza-ascensor-no-amueblado/189688208/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-23T08:02:18.205142Z"
   },
   {
     "id": "fc_190134874",
@@ -819,7 +798,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:16.357142Z"
+    "updated_at": "2026-09-23T08:02:17.591595Z"
   },
   {
     "id": "fc_190284979",
@@ -841,7 +820,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:13.570408Z"
+    "updated_at": "2026-09-23T08:02:15.220413Z"
   },
   {
     "id": "fc_189654022",
@@ -863,7 +842,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:13.570378Z"
+    "updated_at": "2026-09-23T08:02:15.220379Z"
   },
   {
     "id": "fc_188514678",
@@ -884,7 +863,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:15.748708Z"
+    "updated_at": "2026-09-23T08:02:16.959578Z"
   },
   {
     "id": "fc_190872288",
@@ -906,6 +885,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-23T07:03:13.570237Z"
+    "updated_at": "2026-09-23T08:02:15.220227Z"
   }
 ]
