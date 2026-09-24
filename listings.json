@@ -1,5 +1,26 @@
 [
   {
+    "id": "fc_188861007",
+    "title": "PRECIOSO LOFT DE ESQUINA MUY SOLEADO, RECIÉN HECHO CAMBIO DE USO AÑO 2022, MUY CÉNTRICO Y BIEN DOTADO TANTO...",
+    "portal": "Fotocasa",
+    "price": 200000,
+    "price_per_m2": 909,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-amueblado/188861007/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-24T12:03:09.602986Z"
+  },
+  {
     "id": "fc_187569665",
     "title": "¡Descubre este espectacular loft nuevo a estrenar en una ubicación inmejorable! Con una superficie de 40 m²...",
     "portal": "Fotocasa",
@@ -18,28 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111797Z"
-  },
-  {
-    "id": "fc_190077964",
-    "title": "Inmueble exterior con 61m2 según catastro, ubicado sobre calle peatonal y arteria principal, calle MAYOR, a...",
-    "portal": "Fotocasa",
-    "price": 210000,
-    "price_per_m2": 955,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Mayor, Casco Antiguo, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-terraza-ascensor-amueblado/190077964/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-24T11:02:13.591672Z"
+    "updated_at": "2026-09-24T12:03:09.603112Z"
   },
   {
     "id": "fc_190631241",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111851Z"
+    "updated_at": "2026-09-24T12:03:09.603175Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591329Z"
+    "updated_at": "2026-09-24T12:03:08.823383Z"
   },
   {
     "id": "fc_189564146",
@@ -102,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591612Z"
+    "updated_at": "2026-09-24T12:03:08.823738Z"
   },
   {
     "id": "fc_190858978",
@@ -123,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111769Z"
+    "updated_at": "2026-09-24T12:03:09.603048Z"
   },
   {
     "id": "fc_190827202",
@@ -144,28 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111930Z"
-  },
-  {
-    "id": "fc_189783507",
-    "title": "“Estás para entrar a vivir”, eso sí que es un piropo para una casa, pero este piso se lo tiene bien merecid...",
-    "portal": "Fotocasa",
-    "price": 237000,
-    "price_per_m2": 1077,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Avenida del Dos de Mayo, Centro, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza/189783507/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-24T11:02:14.112008Z"
+    "updated_at": "2026-09-24T12:03:09.603260Z"
   },
   {
     "id": "fc_190121779",
@@ -186,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111640Z"
+    "updated_at": "2026-09-24T12:03:09.602858Z"
   },
   {
     "id": "fc_190920978",
@@ -207,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591635Z"
+    "updated_at": "2026-09-24T12:03:08.823760Z"
   },
   {
     "id": "fc_190416257",
@@ -228,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111976Z"
+    "updated_at": "2026-09-24T12:03:09.603307Z"
   },
   {
     "id": "fc_188387753",
@@ -249,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591106Z"
+    "updated_at": "2026-09-24T12:03:08.823186Z"
   },
   {
     "id": "fc_190129755",
@@ -270,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591124Z"
+    "updated_at": "2026-09-24T12:03:08.823209Z"
   },
   {
     "id": "fc_190522879",
@@ -291,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111698Z"
+    "updated_at": "2026-09-24T12:03:09.602924Z"
   },
   {
     "id": "fc_190921052",
@@ -312,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111820Z"
+    "updated_at": "2026-09-24T12:03:09.603138Z"
   },
   {
     "id": "fc_189695730",
@@ -333,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591450Z"
+    "updated_at": "2026-09-24T12:03:08.823562Z"
   },
   {
     "id": "fc_190203046",
@@ -354,7 +333,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591485Z"
+    "updated_at": "2026-09-24T12:03:08.823598Z"
+  },
+  {
+    "id": "fc_190714161",
+    "title": "VIVIENDAS SIGLO XXI VENDE, en el corazón de Móstoles, en una ubicación privilegiada cercana al Hospital Uni...",
+    "portal": "Fotocasa",
+    "price": 280000,
+    "price_per_m2": 1273,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Suroeste - Zona Hospital, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza-ascensor/190714161/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-24T12:03:09.602967Z"
   },
   {
     "id": "fc_189658997",
@@ -375,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111735Z"
+    "updated_at": "2026-09-24T12:03:09.603012Z"
   },
   {
     "id": "fc_189849794",
@@ -396,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111599Z"
+    "updated_at": "2026-09-24T12:03:09.602808Z"
   },
   {
     "id": "fc_189887813",
@@ -417,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.026070Z"
+    "updated_at": "2026-09-24T12:03:07.879932Z"
   },
   {
     "id": "fc_190050376",
@@ -438,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591309Z"
+    "updated_at": "2026-09-24T12:03:08.823363Z"
   },
   {
     "id": "fc_189946914",
@@ -459,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:12.284075Z"
+    "updated_at": "2026-09-24T12:03:06.823199Z"
   },
   {
     "id": "fc_186777175",
@@ -480,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111524Z"
+    "updated_at": "2026-09-24T12:03:09.602712Z"
   },
   {
     "id": "fc_190887922",
@@ -501,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591201Z"
+    "updated_at": "2026-09-24T12:03:08.823498Z"
   },
   {
     "id": "fc_190119701",
@@ -522,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591562Z"
+    "updated_at": "2026-09-24T12:03:08.823687Z"
   },
   {
     "id": "fc_190094652",
@@ -543,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.026008Z"
+    "updated_at": "2026-09-24T12:03:07.879861Z"
   },
   {
     "id": "fc_190400091",
@@ -564,7 +564,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.026162Z"
+    "updated_at": "2026-09-24T12:03:07.880030Z"
   },
   {
     "id": "fc_189654276",
@@ -585,7 +585,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591280Z"
+    "updated_at": "2026-09-24T12:03:08.823331Z"
   },
   {
     "id": "fc_190128403",
@@ -607,7 +607,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591356Z"
+    "updated_at": "2026-09-24T12:03:08.823412Z"
   },
   {
     "id": "fc_188615900",
@@ -628,7 +628,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591467Z"
+    "updated_at": "2026-09-24T12:03:08.823579Z"
   },
   {
     "id": "fc_190696850",
@@ -649,7 +649,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111665Z"
+    "updated_at": "2026-09-24T12:03:09.602884Z"
   },
   {
     "id": "fc_190591727",
@@ -671,7 +671,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591585Z"
+    "updated_at": "2026-09-24T12:03:08.823709Z"
   },
   {
     "id": "fc_190716476",
@@ -692,7 +692,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591431Z"
+    "updated_at": "2026-09-24T12:03:08.823543Z"
+  },
+  {
+    "id": "fc_188778204",
+    "title": "Agencia Inmobiliaria Hogares Alcorcón vende exclusivo piso en la zona de Parque Lisboa, sin duda una de las...",
+    "portal": "Fotocasa",
+    "price": 369900,
+    "price_per_m2": 1681,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida de Lisboa, 12, Parque Lisboa - La Paz, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-ascensor-no-amueblado/188778204/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-24T12:03:08.823617Z"
   },
   {
     "id": "fc_190638332",
@@ -713,7 +734,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591512Z"
+    "updated_at": "2026-09-24T12:03:08.823646Z"
   },
   {
     "id": "fc_189068146",
@@ -734,7 +755,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591653Z"
+    "updated_at": "2026-09-24T12:03:08.823780Z"
   },
   {
     "id": "fc_190544045",
@@ -756,28 +777,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591239Z"
-  },
-  {
-    "id": "fc_188812444",
-    "title": "Agencia Inmobiliaria Hogares Alcorcón vende exclusivo piso de esquina en la zona de Parque Lisboa, sin duda...",
-    "portal": "Fotocasa",
-    "price": 438000,
-    "price_per_m2": 1991,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Porto Lagos, 1, Parque Lisboa - La Paz, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-ascensor-no-amueblado/188812444/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-09-24T11:02:13.591002Z"
+    "updated_at": "2026-09-24T12:03:08.823287Z"
   },
   {
     "id": "fc_190617034",
@@ -798,7 +798,29 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:13.591048Z"
+    "updated_at": "2026-09-24T12:03:08.823099Z"
+  },
+  {
+    "id": "fc_189754110",
+    "title": "La envidia (de la sana, o no tanto) es lo primero que vas a despertar entre tus conocidos en cuanto te mude...",
+    "portal": "Fotocasa",
+    "price": 489000,
+    "price_per_m2": 2223,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle FUENTE CISNEROS, Parque Oeste - Fuente Cisneros, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-parking-terraza-trastero-ascensor-patio-piscina/189754110/d",
+    "features": [
+      "Piscina",
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-09-24T12:03:08.823475Z"
   },
   {
     "id": "fc_189772481",
@@ -819,7 +841,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.786079Z"
+    "updated_at": "2026-09-24T12:03:10.514299Z"
   },
   {
     "id": "fc_189688208",
@@ -840,7 +862,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:15.694633Z"
+    "updated_at": "2026-09-24T12:03:11.426022Z"
   },
   {
     "id": "fc_190134874",
@@ -862,7 +884,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.786141Z"
+    "updated_at": "2026-09-24T12:03:10.514376Z"
   },
   {
     "id": "fc_190284979",
@@ -884,7 +906,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:12.284330Z"
+    "updated_at": "2026-09-24T12:03:06.823488Z"
   },
   {
     "id": "fc_189654022",
@@ -906,7 +928,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:12.284296Z"
+    "updated_at": "2026-09-24T12:03:06.823454Z"
   },
   {
     "id": "fc_188514678",
@@ -927,7 +949,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:14.111557Z"
+    "updated_at": "2026-09-24T12:03:09.602756Z"
   },
   {
     "id": "fc_190872288",
@@ -949,6 +971,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-09-24T11:02:12.284146Z"
+    "updated_at": "2026-09-24T12:03:06.823289Z"
   }
 ]
