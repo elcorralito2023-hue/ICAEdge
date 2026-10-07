@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910086Z"
+    "updated_at": "2026-10-07T10:05:30.870505Z"
   },
   {
     "id": "fc_190077964",
@@ -39,7 +39,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332848Z"
+    "updated_at": "2026-10-07T10:05:29.671206Z"
+  },
+  {
+    "id": "fc_190631241",
+    "title": "Inversión con inquilino. Rentabilidad garantizada.\n\nGrupo Alquiler Seguro te presenta en exclusiva esta exc...",
+    "portal": "Fotocasa",
+    "price": 210000,
+    "price_per_m2": 955,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Baleares, Villafontana - Estoril I, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/ascensor-amueblado/190631241/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-07T10:05:30.870585Z"
   },
   {
     "id": "fc_190995896",
@@ -60,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332776Z"
+    "updated_at": "2026-10-07T10:05:29.671095Z"
   },
   {
     "id": "fc_190903476",
@@ -81,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910026Z"
+    "updated_at": "2026-10-07T10:05:30.870413Z"
   },
   {
     "id": "fc_189592161",
@@ -102,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332578Z"
+    "updated_at": "2026-10-07T10:05:29.670813Z"
   },
   {
     "id": "fc_189564146",
@@ -123,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332758Z"
+    "updated_at": "2026-10-07T10:05:29.671069Z"
   },
   {
     "id": "fc_190858978",
@@ -144,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910060Z"
+    "updated_at": "2026-10-07T10:05:30.870462Z"
   },
   {
     "id": "fc_190759258",
@@ -165,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332794Z"
+    "updated_at": "2026-10-07T10:05:29.671123Z"
   },
   {
     "id": "fc_189612287",
@@ -186,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910173Z"
+    "updated_at": "2026-10-07T10:05:30.870656Z"
   },
   {
     "id": "fc_190920978",
@@ -207,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332809Z"
+    "updated_at": "2026-10-07T10:05:29.671145Z"
   },
   {
     "id": "fc_188387753",
@@ -228,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332823Z"
+    "updated_at": "2026-10-07T10:05:29.671169Z"
   },
   {
     "id": "fc_189962802",
@@ -249,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332495Z"
+    "updated_at": "2026-10-07T10:05:29.670683Z"
   },
   {
     "id": "fc_190921052",
@@ -270,7 +291,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910101Z"
+    "updated_at": "2026-10-07T10:05:30.870528Z"
+  },
+  {
+    "id": "fc_189957772",
+    "title": "HOGARES VENDE EN EXCLUSIVA ESTA VIVIENDA LISTA PARA ENTRAR A VIVIR!\n\nHogares presenta en exclusiva esta fan...",
+    "portal": "Fotocasa",
+    "price": 265000,
+    "price_per_m2": 1205,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Norte - Universidad, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor-amueblado/189957772/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-07T10:05:30.870201Z"
   },
   {
     "id": "fc_189695730",
@@ -291,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332640Z"
+    "updated_at": "2026-10-07T10:05:29.670896Z"
   },
   {
     "id": "fc_189658997",
@@ -312,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910044Z"
+    "updated_at": "2026-10-07T10:05:30.870440Z"
   },
   {
     "id": "fc_189849794",
@@ -333,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.909951Z"
+    "updated_at": "2026-10-07T10:05:30.870297Z"
   },
   {
     "id": "fc_189887813",
@@ -354,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:36.632928Z"
+    "updated_at": "2026-10-07T10:05:28.174597Z"
   },
   {
     "id": "fc_190050376",
@@ -375,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332564Z"
+    "updated_at": "2026-10-07T10:05:29.670791Z"
   },
   {
     "id": "fc_189654276",
@@ -396,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332543Z"
+    "updated_at": "2026-10-07T10:05:29.670760Z"
   },
   {
     "id": "fc_190932112",
@@ -418,7 +460,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332605Z"
+    "updated_at": "2026-10-07T10:05:29.670841Z"
   },
   {
     "id": "fc_190889065",
@@ -439,7 +481,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:36.632819Z"
+    "updated_at": "2026-10-07T10:05:28.174475Z"
   },
   {
     "id": "fc_190696850",
@@ -460,7 +502,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.909990Z"
+    "updated_at": "2026-10-07T10:05:30.870354Z"
   },
   {
     "id": "fc_190865907",
@@ -482,7 +524,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.910155Z"
+    "updated_at": "2026-10-07T10:05:30.870628Z"
   },
   {
     "id": "fc_188778204",
@@ -503,7 +545,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332652Z"
+    "updated_at": "2026-10-07T10:05:29.670915Z"
   },
   {
     "id": "fc_190638332",
@@ -524,7 +566,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332672Z"
+    "updated_at": "2026-10-07T10:05:29.670943Z"
   },
   {
     "id": "fc_190982988",
@@ -546,7 +588,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332738Z"
+    "updated_at": "2026-10-07T10:05:29.671041Z"
   },
   {
     "id": "fc_190969493",
@@ -567,7 +609,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:39.352140Z"
+    "updated_at": "2026-10-07T10:05:33.243951Z"
   },
   {
     "id": "fc_189068146",
@@ -588,28 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332835Z"
-  },
-  {
-    "id": "fc_191001368",
-    "title": "Hay pisos que simplemente tienen habitaciones. Y luego están los que, desde que entras, te hacen pensar en ...",
-    "portal": "Fotocasa",
-    "price": 400000,
-    "price_per_m2": 1818,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle del Pintor Velázquez, Norte - Universidad, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-jardin-terraza-ascensor/191001368/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-07T09:04:37.910211Z"
+    "updated_at": "2026-10-07T10:05:29.671187Z"
   },
   {
     "id": "fc_190617034",
@@ -630,7 +651,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.332429Z"
+    "updated_at": "2026-10-07T10:05:29.670599Z"
   },
   {
     "id": "fc_189772481",
@@ -651,7 +672,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:38.691643Z"
+    "updated_at": "2026-10-07T10:05:32.124992Z"
+  },
+  {
+    "id": "fc_189688208",
+    "title": "Agencia inmobiliaria en Boadilla del Monte, INMOBILIARIA HOGARES BOADILLA DEL MONTE presenta EN EXCLUSIVA e...",
+    "portal": "Fotocasa",
+    "price": 509900,
+    "price_per_m2": 2318,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Casco Antiguo, Boadilla del Monte",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/boadilla-del-monte/calefaccion-terraza-ascensor-no-amueblado/189688208/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-07T10:05:33.243902Z"
   },
   {
     "id": "fc_191003410",
@@ -672,7 +714,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:36.632851Z"
+    "updated_at": "2026-10-07T10:05:28.174506Z"
   },
   {
     "id": "fc_190134874",
@@ -694,7 +736,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:38.691699Z"
+    "updated_at": "2026-10-07T10:05:32.125056Z"
   },
   {
     "id": "fc_189654022",
@@ -716,7 +758,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:35.751715Z"
+    "updated_at": "2026-10-07T10:05:27.256421Z"
   },
   {
     "id": "fc_188514678",
@@ -737,7 +779,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:37.909903Z"
+    "updated_at": "2026-10-07T10:05:30.870238Z"
   },
   {
     "id": "fc_190872288",
@@ -759,6 +801,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-07T09:04:35.751862Z"
+    "updated_at": "2026-10-07T10:05:27.256618Z"
   }
 ]
