@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721542Z"
+    "updated_at": "2026-10-22T18:55:18.795933Z"
   },
   {
     "id": "fc_191126132",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721650Z"
+    "updated_at": "2026-10-22T18:55:18.796008Z"
   },
   {
     "id": "fc_190077964",
@@ -60,7 +60,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867849Z"
+    "updated_at": "2026-10-22T18:55:18.137127Z"
+  },
+  {
+    "id": "fc_190995896",
+    "title": "B-Home presenta en exclusiva luminoso piso reformado con gran terraza.\n\n¿Buscas un hogar lleno de luz, tran...",
+    "portal": "Fotocasa",
+    "price": 215000,
+    "price_per_m2": 977,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle las Vegas, Zona Renfe, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-internet-no-amueblado/190995896/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-22T18:55:18.136988Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867868Z"
+    "updated_at": "2026-10-22T18:55:18.137142Z"
   },
   {
     "id": "fc_190858978",
@@ -102,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721512Z"
+    "updated_at": "2026-10-22T18:55:18.795913Z"
   },
   {
     "id": "fc_190729566",
@@ -123,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721578Z"
+    "updated_at": "2026-10-22T18:55:18.795959Z"
   },
   {
     "id": "fc_190416257",
@@ -144,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721782Z"
+    "updated_at": "2026-10-22T18:55:18.796098Z"
   },
   {
     "id": "fc_190843596",
@@ -165,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867940Z"
+    "updated_at": "2026-10-22T18:55:18.137191Z"
   },
   {
     "id": "fc_190921052",
@@ -186,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721565Z"
+    "updated_at": "2026-10-22T18:55:18.795950Z"
   },
   {
     "id": "fc_189957772",
@@ -207,7 +228,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721489Z"
+    "updated_at": "2026-10-22T18:55:18.795897Z"
+  },
+  {
+    "id": "fc_191092994",
+    "title": "FINANCIAMOS EL 100% DE SU HIPOTECA\n\nB-HOME presenta en exclusiva esta fantástica vivienda de 2 dormitorios ...",
+    "portal": "Fotocasa",
+    "price": 269000,
+    "price_per_m2": 1223,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida de la Constitucion, 58, Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor-amueblado-television-internet/191092994/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-22T18:55:18.795741Z"
   },
   {
     "id": "fc_189782795",
@@ -228,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.868111Z"
+    "updated_at": "2026-10-22T18:55:18.137302Z"
   },
   {
     "id": "fc_191070992",
@@ -249,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867751Z"
+    "updated_at": "2026-10-22T18:55:18.137061Z"
   },
   {
     "id": "fc_189695730",
@@ -270,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.868026Z"
+    "updated_at": "2026-10-22T18:55:18.137233Z"
   },
   {
     "id": "fc_189849794",
@@ -291,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721347Z"
+    "updated_at": "2026-10-22T18:55:18.795810Z"
   },
   {
     "id": "fc_190889065",
@@ -312,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:34.461882Z"
+    "updated_at": "2026-10-22T18:55:17.375853Z"
   },
   {
     "id": "fc_189887813",
@@ -333,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:34.461996Z"
+    "updated_at": "2026-10-22T18:55:17.375933Z"
   },
   {
     "id": "fc_190050376",
@@ -354,28 +396,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867805Z"
+    "updated_at": "2026-10-22T18:55:18.137097Z"
   },
   {
-    "id": "fc_191083323",
-    "title": "Globalpiso Alcorcón presenta esta amplia vivienda de 93 m² construidos, con 3 dormitorios, 1 baño y ascenso...",
+    "id": "fc_190400091",
+    "title": "Hogares Pozuelo presenta una excelente oportunidad para quienes buscan diseñar una vivienda completamente a...",
     "portal": "Fotocasa",
-    "price": 306000,
-    "price_per_m2": 1391,
+    "price": 319000,
+    "price_per_m2": 1450,
     "size_m2": 220,
     "bedrooms": 4,
     "bathrooms": 2,
     "floor": "Chalet / Unifamiliar",
-    "location": "japon , Parque Ondarreta - Urtinsa, Alcorcón",
+    "location": "Calle de Cirilo Palomo, Pueblo, Pozuelo de Alarcón",
     "lat": 40.45,
     "lng": -3.87,
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-terraza-ascensor/191083323/d",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/pozuelo-de-alarcon/aire-acondicionado-calefaccion-no-amueblado/190400091/d",
     "features": [
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.868006Z"
+    "updated_at": "2026-10-22T18:55:17.375811Z"
   },
   {
     "id": "fc_190932112",
@@ -397,7 +439,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867967Z"
+    "updated_at": "2026-10-22T18:55:18.137210Z"
   },
   {
     "id": "fc_190696850",
@@ -418,7 +460,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721441Z"
+    "updated_at": "2026-10-22T18:55:18.795865Z"
   },
   {
     "id": "fc_190591727",
@@ -440,7 +482,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.868152Z"
+    "updated_at": "2026-10-22T18:55:18.137329Z"
   },
   {
     "id": "fc_190969493",
@@ -461,7 +503,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:39.198154Z"
+    "updated_at": "2026-10-22T18:55:21.682992Z"
   },
   {
     "id": "fc_190638332",
@@ -482,7 +524,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.868053Z"
+    "updated_at": "2026-10-22T18:55:18.137253Z"
   },
   {
     "id": "fc_191116831",
@@ -503,7 +545,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867734Z"
+    "updated_at": "2026-10-22T18:55:18.137049Z"
   },
   {
     "id": "fc_190932838",
@@ -525,7 +567,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867904Z"
+    "updated_at": "2026-10-22T18:55:18.137167Z"
   },
   {
     "id": "fc_191001368",
@@ -546,7 +588,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721732Z"
+    "updated_at": "2026-10-22T18:55:18.796065Z"
   },
   {
     "id": "fc_190617034",
@@ -567,7 +609,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:35.867699Z"
+    "updated_at": "2026-10-22T18:55:18.137034Z"
   },
   {
     "id": "fc_189772481",
@@ -588,7 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:37.972870Z"
+    "updated_at": "2026-10-22T18:55:20.656300Z"
   },
   {
     "id": "fc_191003410",
@@ -609,7 +651,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:34.461853Z"
+    "updated_at": "2026-10-22T18:55:17.375843Z"
   },
   {
     "id": "fc_190134874",
@@ -631,7 +673,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:37.972957Z"
+    "updated_at": "2026-10-22T18:55:20.656369Z"
   },
   {
     "id": "fc_190284979",
@@ -653,7 +695,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:33.220695Z"
+    "updated_at": "2026-10-22T18:55:16.404904Z"
   },
   {
     "id": "fc_191073665",
@@ -675,7 +717,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:32.640742Z"
+    "updated_at": "2026-10-22T18:55:15.789331Z"
   },
   {
     "id": "fc_188514678",
@@ -696,7 +738,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:36.721291Z"
+    "updated_at": "2026-10-22T18:55:18.795779Z"
   },
   {
     "id": "fc_191170078",
@@ -717,7 +759,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:32.640836Z"
+    "updated_at": "2026-10-22T18:55:15.789642Z"
   },
   {
     "id": "fc_190160587",
@@ -739,6 +781,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-22T14:50:33.220658Z"
+    "updated_at": "2026-10-22T18:55:16.404866Z"
   }
 ]
