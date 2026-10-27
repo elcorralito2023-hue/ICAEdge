@@ -1,47 +1,5 @@
 [
   {
-    "id": "fc_188861007",
-    "title": "PRECIOSO LOFT DE ESQUINA MUY SOLEADO, RECIÉN HECHO CAMBIO DE USO AÑO 2022, MUY CÉNTRICO Y BIEN DOTADO TANTO...",
-    "portal": "Fotocasa",
-    "price": 200000,
-    "price_per_m2": 909,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Centro, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-amueblado/188861007/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:27.061423Z"
-  },
-  {
-    "id": "fc_190443085",
-    "title": "Inmobiliaria HOGARES Alcorcón ofrece en exclusiva esta magnífica vivienda. Una excelente oportunidad de inv...",
-    "portal": "Fotocasa",
-    "price": 209900,
-    "price_per_m2": 954,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Urano, Valderas - Los Castillos, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-terraza-ascensor-amueblado/190443085/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:26.251869Z"
-  },
-  {
     "id": "fc_190995896",
     "title": "B-Home presenta en exclusiva luminoso piso reformado con gran terraza.\n\n¿Buscas un hogar lleno de luz, tran...",
     "portal": "Fotocasa",
@@ -60,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251826Z"
+    "updated_at": "2026-10-27T16:05:46.138564Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251517Z"
+    "updated_at": "2026-10-27T16:05:46.138256Z"
   },
   {
     "id": "fc_190858978",
@@ -102,7 +60,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061445Z"
+    "updated_at": "2026-10-27T16:05:46.747182Z"
+  },
+  {
+    "id": "fc_190729566",
+    "title": "En el corazón de Móstoles se encuentra este encantador piso reformado que ofrece una excelente oportunidad....",
+    "portal": "Fotocasa",
+    "price": 225000,
+    "price_per_m2": 1023,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/terraza/190729566/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-27T16:05:46.747195Z"
   },
   {
     "id": "fc_191103755",
@@ -123,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251498Z"
+    "updated_at": "2026-10-27T16:05:46.138233Z"
   },
   {
     "id": "fc_190416257",
@@ -144,28 +123,70 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061620Z"
+    "updated_at": "2026-10-27T16:05:46.747343Z"
   },
   {
-    "id": "fc_190920978",
-    "title": "Hogares Alcorcón vende en exclusiva este fantástico piso de 3 dormitorios y 1 baño completo, una vivienda l...",
+    "id": "fc_190827202",
+    "title": "“Él me dice que quiere estar conmigo, yo le digo que no es fácil enamorarse... de una superestrella” Pero l...",
     "portal": "Fotocasa",
-    "price": 241900,
-    "price_per_m2": 1100,
+    "price": 235000,
+    "price_per_m2": 1068,
     "size_m2": 220,
     "bedrooms": 4,
     "bathrooms": 2,
     "floor": "Chalet / Unifamiliar",
-    "location": "Calle Jaén, Parque Mayor, Alcorcón",
+    "location": "Calle Calle Villaamil, Centro, Móstoles",
     "lat": 40.45,
     "lng": -3.87,
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-amueblado/190920978/d",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza-ascensor/190827202/d",
     "features": [
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251848Z"
+    "updated_at": "2026-10-27T16:05:46.747392Z"
+  },
+  {
+    "id": "fc_191061731",
+    "title": "Novahome presenta en exclusiva magnífica vivienda reformado, en pleno centro de Alcorcón. Una ubicación pri...",
+    "portal": "Fotocasa",
+    "price": 243000,
+    "price_per_m2": 1105,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Jabonería, Zona Centro Joven, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-ascensor-no-amueblado/191061731/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-27T16:05:46.138132Z"
+  },
+  {
+    "id": "fc_191092315",
+    "title": "Hay casas que no vienen terminadas. Vienen con un proyecto. Y esta puede ser una de ellas.\n\nUna vivienda am...",
+    "portal": "Fotocasa",
+    "price": 244000,
+    "price_per_m2": 1109,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida DOS DE MAYO, Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-terraza-ascensor/191092315/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-27T16:05:46.747307Z"
   },
   {
     "id": "fc_190921052",
@@ -186,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061468Z"
+    "updated_at": "2026-10-27T16:05:46.747215Z"
   },
   {
     "id": "fc_189115349",
@@ -207,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061647Z"
+    "updated_at": "2026-10-27T16:05:46.747367Z"
   },
   {
     "id": "fc_190522879",
@@ -228,7 +249,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061337Z"
+    "updated_at": "2026-10-27T16:05:46.747115Z"
+  },
+  {
+    "id": "fc_191092994",
+    "title": "FINANCIAMOS EL 100% DE SU HIPOTECA\n\nB-HOME presenta en exclusiva esta fantástica vivienda de 2 dormitorios ...",
+    "portal": "Fotocasa",
+    "price": 269000,
+    "price_per_m2": 1223,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida de la Constitucion, 58, Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor-amueblado-television-internet/191092994/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-27T16:05:46.746991Z"
   },
   {
     "id": "fc_190973231",
@@ -249,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251587Z"
+    "updated_at": "2026-10-27T16:05:46.138321Z"
   },
   {
     "id": "fc_189695730",
@@ -270,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251629Z"
+    "updated_at": "2026-10-27T16:05:46.138378Z"
   },
   {
     "id": "fc_190050376",
@@ -291,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251451Z"
+    "updated_at": "2026-10-27T16:05:46.138189Z"
   },
   {
     "id": "fc_189849794",
@@ -312,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061288Z"
+    "updated_at": "2026-10-27T16:05:46.747071Z"
   },
   {
     "id": "fc_190889065",
@@ -333,28 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:25.692301Z"
-  },
-  {
-    "id": "fc_190099968",
-    "title": "Se vende vivienda completamente reformada, lista para entrar a vivir y con una distribución cómoda y funcio...",
-    "portal": "Fotocasa",
-    "price": 315000,
-    "price_per_m2": 1432,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Suroeste - Zona Hospital, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-zona-comunitaria-ascensor-no-amueblado/190099968/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:27.061382Z"
+    "updated_at": "2026-10-27T16:05:45.609237Z"
   },
   {
     "id": "fc_190696850",
@@ -375,7 +396,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061362Z"
+    "updated_at": "2026-10-27T16:05:46.747142Z"
+  },
+  {
+    "id": "fc_190716476",
+    "title": "Inmobiliaria HOGARES Alcorcón ofrece en exclusiva la oportunidad que estabas esperando.\n\nDescubre esta estu...",
+    "portal": "Fotocasa",
+    "price": 359900,
+    "price_per_m2": 1636,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Valderas - Los Castillos, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-ascensor-amueblado/190716476/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-27T16:05:46.138356Z"
   },
   {
     "id": "fc_190969493",
@@ -396,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:28.455138Z"
+    "updated_at": "2026-10-27T16:05:48.016978Z"
   },
   {
     "id": "fc_190638332",
@@ -417,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251657Z"
+    "updated_at": "2026-10-27T16:05:46.138407Z"
   },
   {
     "id": "fc_191179433",
@@ -439,28 +481,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251422Z"
-  },
-  {
-    "id": "fc_189068146",
-    "title": "Agencia Inmobiliaria Hogares Alcorcón vende exclusivo piso en la zona de Parque Lisboa, sin duda una de las...",
-    "portal": "Fotocasa",
-    "price": 394900,
-    "price_per_m2": 1795,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Cabo de San Vicente, Parque Lisboa - La Paz, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-ascensor-amueblado/189068146/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:26.251326Z"
+    "updated_at": "2026-10-27T16:05:46.138158Z"
   },
   {
     "id": "fc_191116831",
@@ -481,7 +502,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251388Z"
+    "updated_at": "2026-10-27T16:05:46.138064Z"
   },
   {
     "id": "fc_190932838",
@@ -503,28 +524,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251552Z"
-  },
-  {
-    "id": "fc_191001368",
-    "title": "Hay pisos que simplemente tienen habitaciones. Y luego están los que, desde que entras, te hacen pensar en ...",
-    "portal": "Fotocasa",
-    "price": 400000,
-    "price_per_m2": 1818,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle del Pintor Velázquez, Norte - Universidad, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-jardin-terraza-ascensor/191001368/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:27.061590Z"
+    "updated_at": "2026-10-27T16:05:46.138288Z"
   },
   {
     "id": "fc_190617034",
@@ -545,7 +545,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:26.251475Z"
+    "updated_at": "2026-10-27T16:05:46.138210Z"
   },
   {
     "id": "fc_189772481",
@@ -566,7 +566,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.697986Z"
+    "updated_at": "2026-10-27T16:05:47.464828Z"
   },
   {
     "id": "fc_191003410",
@@ -587,7 +587,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:25.692271Z"
+    "updated_at": "2026-10-27T16:05:45.609195Z"
   },
   {
     "id": "fc_190134874",
@@ -609,51 +609,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.697910Z"
-  },
-  {
-    "id": "fc_190284979",
-    "title": "HOGARES MAJADAHONDA VENDE EN EXCLUSIVA estupendo piso totalmente reformado de dos dormitorios con dos cuart...",
-    "portal": "Fotocasa",
-    "price": 595000,
-    "price_per_m2": 2705,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Avenida Rey Juan Carlos I, Zona Monte El Pilar, Majadahonda",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/majadahonda/aire-acondicionado-calefaccion-parking-terraza-zona-comunitaria-ascensor-piscina-no-amueblado/190284979/d",
-    "features": [
-      "Piscina",
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:24.890526Z"
-  },
-  {
-    "id": "fc_191073665",
-    "title": "VO PRIVATE ofrece este magnífico chalet adosado de 4 plantas en urbanización privada, ubicado en una de las...",
-    "portal": "Fotocasa",
-    "price": 640000,
-    "price_per_m2": 2909,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Las Matas  - Peñascales, Las Rozas",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-calefaccion-jardin-terraza-internet-piscina-no-amueblado/191073665/d",
-    "features": [
-      "Piscina",
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-27T10:06:24.039245Z"
+    "updated_at": "2026-10-27T16:05:47.464766Z"
   },
   {
     "id": "fc_188514678",
@@ -674,7 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:27.061236Z"
+    "updated_at": "2026-10-27T16:05:46.747029Z"
   },
   {
     "id": "fc_191170078",
@@ -695,7 +651,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:24.039356Z"
+    "updated_at": "2026-10-27T16:05:43.954148Z"
   },
   {
     "id": "fc_190160587",
@@ -717,7 +673,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:24.890345Z"
+    "updated_at": "2026-10-27T16:05:44.718336Z"
   },
   {
     "id": "fc_190872288",
@@ -739,6 +695,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-27T10:06:24.890381Z"
+    "updated_at": "2026-10-27T16:05:44.718378Z"
   }
 ]
