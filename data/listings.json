@@ -1,5 +1,47 @@
 [
   {
+    "id": "fc_187569665",
+    "title": "¡Descubre este espectacular loft nuevo a estrenar en una ubicación inmejorable! Con una superficie de 40 m²...",
+    "portal": "Fotocasa",
+    "price": 200000,
+    "price_per_m2": 909,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-no-amueblado/187569665/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-29T11:10:03.959993Z"
+  },
+  {
+    "id": "fc_190995896",
+    "title": "B-Home presenta en exclusiva luminoso piso reformado con gran terraza.\n\n¿Buscas un hogar lleno de luz, tran...",
+    "portal": "Fotocasa",
+    "price": 215000,
+    "price_per_m2": 977,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle las Vegas, Zona Renfe, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-internet-no-amueblado/190995896/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-29T11:10:03.283515Z"
+  },
+  {
     "id": "fc_189592161",
     "title": "Vivienda distribuida como sigue: Recibidor, cocina amueblada a dos frentes con acceso a tendedero cerrado c...",
     "portal": "Fotocasa",
@@ -18,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730621Z"
+    "updated_at": "2026-10-29T11:10:03.283750Z"
   },
   {
     "id": "fc_189564146",
@@ -39,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730854Z"
+    "updated_at": "2026-10-29T11:10:03.284029Z"
   },
   {
     "id": "fc_190858978",
@@ -60,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566306Z"
+    "updated_at": "2026-10-29T11:10:03.959657Z"
   },
   {
     "id": "fc_190729566",
@@ -81,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566314Z"
+    "updated_at": "2026-10-29T11:10:03.959669Z"
   },
   {
     "id": "fc_191103755",
@@ -102,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730605Z"
+    "updated_at": "2026-10-29T11:10:03.283713Z"
   },
   {
     "id": "fc_190416257",
@@ -123,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566428Z"
+    "updated_at": "2026-10-29T11:10:03.959840Z"
   },
   {
     "id": "fc_190827202",
@@ -144,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566466Z"
+    "updated_at": "2026-10-29T11:10:03.959888Z"
   },
   {
     "id": "fc_191061731",
@@ -165,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730686Z"
+    "updated_at": "2026-10-29T11:10:03.283825Z"
   },
   {
     "id": "fc_191092315",
@@ -186,28 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566409Z"
-  },
-  {
-    "id": "fc_190843596",
-    "title": "HOGARES ALCORCÓN presenta en exclusiva este magnífico piso reformado en venta en Alcorcón, una vivienda de ...",
-    "portal": "Fotocasa",
-    "price": 249900,
-    "price_per_m2": 1136,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Sierra de Alto de Leon, Zona Centro Joven, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-ascensor-amueblado-internet/190843596/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-10-28T21:24:15.730545Z"
+    "updated_at": "2026-10-29T11:10:03.959813Z"
   },
   {
     "id": "fc_190921052",
@@ -228,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566328Z"
+    "updated_at": "2026-10-29T11:10:03.959690Z"
   },
   {
     "id": "fc_189115349",
@@ -249,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566447Z"
+    "updated_at": "2026-10-29T11:10:03.959863Z"
   },
   {
     "id": "fc_190696132",
@@ -270,7 +291,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566373Z"
+    "updated_at": "2026-10-29T11:10:03.959764Z"
+  },
+  {
+    "id": "fc_191092994",
+    "title": "FINANCIAMOS EL 100% DE SU HIPOTECA\n\nB-HOME presenta en exclusiva esta fantástica vivienda de 2 dormitorios ...",
+    "portal": "Fotocasa",
+    "price": 269000,
+    "price_per_m2": 1223,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Avenida de la Constitucion, 58, Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor-amueblado-television-internet/191092994/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-29T11:10:03.959498Z"
   },
   {
     "id": "fc_190973231",
@@ -291,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730701Z"
+    "updated_at": "2026-10-29T11:10:03.283845Z"
   },
   {
     "id": "fc_189695730",
@@ -312,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730752Z"
+    "updated_at": "2026-10-29T11:10:03.283878Z"
   },
   {
     "id": "fc_190050376",
@@ -333,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730588Z"
+    "updated_at": "2026-10-29T11:10:03.283690Z"
   },
   {
     "id": "fc_189849794",
@@ -354,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566240Z"
+    "updated_at": "2026-10-29T11:10:03.959575Z"
   },
   {
     "id": "fc_190889065",
@@ -375,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.048103Z"
+    "updated_at": "2026-10-29T11:10:02.543213Z"
   },
   {
     "id": "fc_190400091",
@@ -396,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.048135Z"
+    "updated_at": "2026-10-29T11:10:02.543169Z"
   },
   {
     "id": "fc_190696850",
@@ -417,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566277Z"
+    "updated_at": "2026-10-29T11:10:03.959625Z"
   },
   {
     "id": "fc_190716476",
@@ -438,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730738Z"
+    "updated_at": "2026-10-29T11:10:03.283861Z"
   },
   {
     "id": "fc_190969493",
@@ -459,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:17.877996Z"
+    "updated_at": "2026-10-29T11:10:05.492083Z"
   },
   {
     "id": "fc_190638332",
@@ -480,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730772Z"
+    "updated_at": "2026-10-29T11:10:03.283904Z"
   },
   {
     "id": "fc_190257500",
@@ -501,7 +543,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566526Z"
+    "updated_at": "2026-10-29T11:10:03.959953Z"
   },
   {
     "id": "fc_191179433",
@@ -523,7 +565,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730564Z"
+    "updated_at": "2026-10-29T11:10:03.283663Z"
   },
   {
     "id": "fc_191116831",
@@ -544,7 +586,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730511Z"
+    "updated_at": "2026-10-29T11:10:03.283603Z"
   },
   {
     "id": "fc_190932838",
@@ -566,7 +608,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730648Z"
+    "updated_at": "2026-10-29T11:10:03.283784Z"
   },
   {
     "id": "fc_190617034",
@@ -587,7 +629,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.730474Z"
+    "updated_at": "2026-10-29T11:10:03.283584Z"
   },
   {
     "id": "fc_189772481",
@@ -608,7 +650,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:17.263955Z"
+    "updated_at": "2026-10-29T11:10:04.799504Z"
   },
   {
     "id": "fc_191003410",
@@ -629,7 +671,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:15.048069Z"
+    "updated_at": "2026-10-29T11:10:02.543199Z"
   },
   {
     "id": "fc_190134874",
@@ -651,7 +693,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:17.263902Z"
+    "updated_at": "2026-10-29T11:10:04.799588Z"
   },
   {
     "id": "fc_190284979",
@@ -673,7 +715,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:14.128149Z"
+    "updated_at": "2026-10-29T11:10:01.668022Z"
   },
   {
     "id": "fc_188514678",
@@ -694,7 +736,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:16.566193Z"
+    "updated_at": "2026-10-29T11:10:03.959532Z"
+  },
+  {
+    "id": "fc_191170078",
+    "title": "HOGARES LAS ROZAS HERON VENDE EN EXCLUSIVA\nTe presentamos este fantástico adosado de 215 m² en Las Matas, L...",
+    "portal": "Fotocasa",
+    "price": 650000,
+    "price_per_m2": 2955,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle de la Sirena, Las Matas  - Peñascales, Las Rozas",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/no-amueblado/191170078/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-29T11:10:00.869436Z"
   },
   {
     "id": "fc_190160587",
@@ -716,6 +779,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-28T21:24:14.128102Z"
+    "updated_at": "2026-10-29T11:10:01.667985Z"
   }
 ]
