@@ -1,5 +1,26 @@
 [
   {
+    "id": "fc_187569665",
+    "title": "¡Descubre este espectacular loft nuevo a estrenar en una ubicación inmejorable! Con una superficie de 40 m²...",
+    "portal": "Fotocasa",
+    "price": 200000,
+    "price_per_m2": 909,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Centro, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-no-amueblado/187569665/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-10-30T21:44:53.991742Z"
+  },
+  {
     "id": "fc_189592161",
     "title": "Vivienda distribuida como sigue: Recibidor, cocina amueblada a dos frentes con acceso a tendedero cerrado c...",
     "portal": "Fotocasa",
@@ -18,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164753Z"
+    "updated_at": "2026-10-30T21:44:53.274543Z"
   },
   {
     "id": "fc_189564146",
@@ -39,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.165011Z"
+    "updated_at": "2026-10-30T21:44:53.274800Z"
   },
   {
     "id": "fc_190858978",
@@ -60,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751486Z"
+    "updated_at": "2026-10-30T21:44:53.991713Z"
   },
   {
     "id": "fc_191103755",
@@ -81,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164721Z"
+    "updated_at": "2026-10-30T21:44:53.274523Z"
   },
   {
     "id": "fc_190416257",
@@ -102,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751665Z"
+    "updated_at": "2026-10-30T21:44:53.991949Z"
   },
   {
     "id": "fc_190827202",
@@ -123,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751759Z"
+    "updated_at": "2026-10-30T21:44:53.992049Z"
   },
   {
     "id": "fc_191092315",
@@ -144,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751624Z"
+    "updated_at": "2026-10-30T21:44:53.991883Z"
   },
   {
     "id": "fc_187959995",
@@ -165,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751463Z"
+    "updated_at": "2026-10-30T21:44:53.991690Z"
   },
   {
     "id": "fc_189115349",
@@ -186,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751709Z"
+    "updated_at": "2026-10-30T21:44:53.992003Z"
   },
   {
     "id": "fc_190696132",
@@ -207,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751571Z"
+    "updated_at": "2026-10-30T21:44:53.991827Z"
   },
   {
     "id": "fc_191092994",
@@ -228,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751292Z"
+    "updated_at": "2026-10-30T21:44:53.991514Z"
   },
   {
     "id": "fc_189782795",
@@ -249,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164953Z"
+    "updated_at": "2026-10-30T21:44:53.274740Z"
   },
   {
     "id": "fc_191171899",
@@ -270,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164621Z"
+    "updated_at": "2026-10-30T21:44:53.274440Z"
   },
   {
     "id": "fc_190973231",
@@ -291,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164826Z"
+    "updated_at": "2026-10-30T21:44:53.274614Z"
   },
   {
     "id": "fc_189695730",
@@ -312,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164862Z"
+    "updated_at": "2026-10-30T21:44:53.274652Z"
   },
   {
     "id": "fc_191235339",
@@ -333,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164549Z"
+    "updated_at": "2026-10-30T21:44:53.274319Z"
   },
   {
     "id": "fc_190050376",
@@ -354,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164696Z"
+    "updated_at": "2026-10-30T21:44:53.274497Z"
   },
   {
     "id": "fc_189849794",
@@ -375,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751370Z"
+    "updated_at": "2026-10-30T21:44:53.991593Z"
   },
   {
     "id": "fc_190889065",
@@ -396,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:39.325779Z"
+    "updated_at": "2026-10-30T21:44:52.135903Z"
   },
   {
     "id": "fc_190696850",
@@ -417,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751438Z"
+    "updated_at": "2026-10-30T21:44:53.991665Z"
   },
   {
     "id": "fc_190716476",
@@ -438,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164843Z"
+    "updated_at": "2026-10-30T21:44:53.274632Z"
   },
   {
     "id": "fc_190969493",
@@ -459,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:42.867349Z"
+    "updated_at": "2026-10-30T21:44:56.196259Z"
   },
   {
     "id": "fc_190638332",
@@ -480,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164889Z"
+    "updated_at": "2026-10-30T21:44:53.274679Z"
   },
   {
     "id": "fc_190982988",
@@ -502,7 +523,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164983Z"
+    "updated_at": "2026-10-30T21:44:53.274772Z"
   },
   {
     "id": "fc_191179433",
@@ -524,7 +545,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164662Z"
+    "updated_at": "2026-10-30T21:44:53.274467Z"
   },
   {
     "id": "fc_191116831",
@@ -545,7 +566,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164525Z"
+    "updated_at": "2026-10-30T21:44:53.274277Z"
   },
   {
     "id": "fc_190932838",
@@ -567,7 +588,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164790Z"
+    "updated_at": "2026-10-30T21:44:53.274578Z"
   },
   {
     "id": "fc_190617034",
@@ -588,7 +609,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.164472Z"
+    "updated_at": "2026-10-30T21:44:53.274218Z"
   },
   {
     "id": "fc_189772481",
@@ -609,7 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:42.136342Z"
+    "updated_at": "2026-10-30T21:44:55.156922Z"
   },
   {
     "id": "fc_191003410",
@@ -630,7 +651,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:39.325749Z"
+    "updated_at": "2026-10-30T21:44:52.135873Z"
   },
   {
     "id": "fc_190134874",
@@ -652,7 +673,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:42.136286Z"
+    "updated_at": "2026-10-30T21:44:55.156866Z"
   },
   {
     "id": "fc_190284979",
@@ -674,7 +695,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:38.670284Z"
+    "updated_at": "2026-10-30T21:44:51.414925Z"
   },
   {
     "id": "fc_188514678",
@@ -695,7 +716,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:40.751327Z"
+    "updated_at": "2026-10-30T21:44:53.991550Z"
   },
   {
     "id": "fc_191170078",
@@ -716,7 +737,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:37.425063Z"
+    "updated_at": "2026-10-30T21:44:50.255678Z"
   },
   {
     "id": "fc_190160587",
@@ -738,6 +759,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-10-30T17:22:38.670246Z"
+    "updated_at": "2026-10-30T21:44:51.414886Z"
   }
 ]
