@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823528Z"
+    "updated_at": "2026-11-02T22:00:21.540264Z"
   },
   {
     "id": "fc_190995896",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324433Z"
+    "updated_at": "2026-11-02T22:00:20.606432Z"
   },
   {
     "id": "fc_189592161",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324077Z"
+    "updated_at": "2026-11-02T22:00:20.606086Z"
   },
   {
     "id": "fc_189564146",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324351Z"
+    "updated_at": "2026-11-02T22:00:20.606349Z"
   },
   {
     "id": "fc_190858978",
@@ -102,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823176Z"
+    "updated_at": "2026-11-02T22:00:21.540230Z"
   },
   {
     "id": "fc_190729566",
@@ -123,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823188Z"
+    "updated_at": "2026-11-02T22:00:21.540277Z"
   },
   {
     "id": "fc_190759258",
@@ -144,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324460Z"
+    "updated_at": "2026-11-02T22:00:20.606458Z"
   },
   {
     "id": "fc_191103755",
@@ -165,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324048Z"
+    "updated_at": "2026-11-02T22:00:20.606057Z"
   },
   {
     "id": "fc_190416257",
@@ -186,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823344Z"
+    "updated_at": "2026-11-02T22:00:21.540421Z"
   },
   {
     "id": "fc_190827202",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823416Z"
+    "updated_at": "2026-11-02T22:00:21.540498Z"
   },
   {
     "id": "fc_190920978",
@@ -228,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324497Z"
+    "updated_at": "2026-11-02T22:00:20.606497Z"
   },
   {
     "id": "fc_191092315",
@@ -249,7 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823300Z"
+    "updated_at": "2026-11-02T22:00:21.540356Z"
   },
   {
     "id": "fc_189115349",
@@ -270,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823372Z"
+    "updated_at": "2026-11-02T22:00:21.540452Z"
   },
   {
     "id": "fc_189782795",
@@ -291,7 +291,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324282Z"
+    "updated_at": "2026-11-02T22:00:20.606281Z"
+  },
+  {
+    "id": "fc_190203046",
+    "title": "¡Espectacular vivienda totalmente reformada en el centro de Alcorcón!\n\nSi buscas un piso moderno, luminoso ...",
+    "portal": "Fotocasa",
+    "price": 275000,
+    "price_per_m2": 1250,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle San Luis, Casco Antiguo, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/terraza-ascensor/190203046/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-02T22:00:20.605898Z"
   },
   {
     "id": "fc_189695730",
@@ -312,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324166Z"
+    "updated_at": "2026-11-02T22:00:20.606179Z"
   },
   {
     "id": "fc_189658997",
@@ -333,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823152Z"
+    "updated_at": "2026-11-02T22:00:21.540208Z"
   },
   {
     "id": "fc_190050376",
@@ -354,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324024Z"
+    "updated_at": "2026-11-02T22:00:20.606032Z"
   },
   {
     "id": "fc_189849794",
@@ -375,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823016Z"
+    "updated_at": "2026-11-02T22:00:21.540072Z"
   },
   {
     "id": "fc_190889065",
@@ -396,7 +417,29 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:56.605095Z"
+    "updated_at": "2026-11-02T22:00:19.625517Z"
+  },
+  {
+    "id": "fc_189714205",
+    "title": "HOGARES MÓSTOLES presenta este magnífico piso situado en una de las zonas más demandadas y familiares de Mó...",
+    "portal": "Fotocasa",
+    "price": 318900,
+    "price_per_m2": 1450,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Magallanes, Norte - Universidad, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-trastero-ascensor-piscina-amueblado/189714205/d",
+    "features": [
+      "Piscina",
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-02T22:00:21.539990Z"
   },
   {
     "id": "fc_190696850",
@@ -417,7 +460,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823101Z"
+    "updated_at": "2026-11-02T22:00:21.540157Z"
   },
   {
     "id": "fc_191223485",
@@ -438,7 +481,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823078Z"
+    "updated_at": "2026-11-02T22:00:21.540132Z"
   },
   {
     "id": "fc_190716476",
@@ -459,7 +502,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324145Z"
+    "updated_at": "2026-11-02T22:00:20.606158Z"
   },
   {
     "id": "fc_190591727",
@@ -481,7 +524,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324323Z"
+    "updated_at": "2026-11-02T22:00:20.606321Z"
   },
   {
     "id": "fc_190969493",
@@ -502,7 +545,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:59.088420Z"
+    "updated_at": "2026-11-02T22:00:23.373122Z"
   },
   {
     "id": "fc_188778204",
@@ -523,7 +566,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324183Z"
+    "updated_at": "2026-11-02T22:00:20.606197Z"
   },
   {
     "id": "fc_190638332",
@@ -544,7 +587,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324210Z"
+    "updated_at": "2026-11-02T22:00:20.606224Z"
   },
   {
     "id": "fc_190257500",
@@ -565,7 +608,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.823499Z"
+    "updated_at": "2026-11-02T22:00:21.540582Z"
   },
   {
     "id": "fc_191179433",
@@ -587,7 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.323993Z"
+    "updated_at": "2026-11-02T22:00:20.606001Z"
   },
   {
     "id": "fc_190932838",
@@ -609,7 +652,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324112Z"
+    "updated_at": "2026-11-02T22:00:20.606125Z"
   },
   {
     "id": "fc_191116831",
@@ -630,7 +673,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.324387Z"
+    "updated_at": "2026-11-02T22:00:20.606385Z"
   },
   {
     "id": "fc_190617034",
@@ -651,7 +694,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.323923Z"
+    "updated_at": "2026-11-02T22:00:20.605943Z"
   },
   {
     "id": "fc_189772481",
@@ -672,7 +715,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:58.432372Z"
+    "updated_at": "2026-11-02T22:00:22.673046Z"
   },
   {
     "id": "fc_189688208",
@@ -693,7 +736,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:59.088473Z"
+    "updated_at": "2026-11-02T22:00:23.373172Z"
   },
   {
     "id": "fc_191003410",
@@ -714,7 +757,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:56.605064Z"
+    "updated_at": "2026-11-02T22:00:19.625484Z"
   },
   {
     "id": "fc_190134874",
@@ -736,7 +779,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:58.432468Z"
+    "updated_at": "2026-11-02T22:00:22.673144Z"
   },
   {
     "id": "fc_190284979",
@@ -758,7 +801,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:55.892276Z"
+    "updated_at": "2026-11-02T22:00:18.326992Z"
   },
   {
     "id": "fc_188514678",
@@ -779,7 +822,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:57.822958Z"
+    "updated_at": "2026-11-02T22:00:21.540026Z"
   },
   {
     "id": "fc_191170078",
@@ -800,7 +843,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:55.402146Z"
+    "updated_at": "2026-11-02T22:00:17.045232Z"
   },
   {
     "id": "fc_190160587",
@@ -822,6 +865,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-02T12:55:55.892183Z"
+    "updated_at": "2026-11-02T22:00:18.326954Z"
   }
 ]
