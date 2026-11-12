@@ -18,28 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051574Z"
-  },
-  {
-    "id": "fc_191216138",
-    "title": "ATENCIÓN INVERSORES Y COMPRADORES AL CONTADO: EXCELENTE OPORTUNIDAD DE INVERSIÓN EN ALCORCÓN (MADRID)\n\nSe p...",
-    "portal": "Fotocasa",
-    "price": 208643,
-    "price_per_m2": 948,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle VIZCAYA, Casco Antiguo, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-terraza/191216138/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-12T01:43:15.124031Z"
+    "updated_at": "2026-11-12T13:24:22.026970Z"
   },
   {
     "id": "fc_190995896",
@@ -60,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124462Z"
+    "updated_at": "2026-11-12T13:24:21.260172Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +60,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124134Z"
+    "updated_at": "2026-11-12T13:24:21.260387Z"
+  },
+  {
+    "id": "fc_189564146",
+    "title": "Grupo Inmobiliario Ares vende planta baja en la Calle Cisneros, cuenta con 65 m² construidos, distribuidos ...",
+    "portal": "Fotocasa",
+    "price": 220000,
+    "price_per_m2": 1000,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Cisneros, Zona Renfe, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-ascensor-amueblado/189564146/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-12T13:24:21.260597Z"
   },
   {
     "id": "fc_190858978",
@@ -102,28 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051633Z"
-  },
-  {
-    "id": "fc_190939321",
-    "title": "¡Gran oportunidad! Luminoso piso de 2 dormitorios en finca seminueva con ascensor.\nTe presentamos esta fant...",
-    "portal": "Fotocasa",
-    "price": 225000,
-    "price_per_m2": 1023,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Centro, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/ascensor-no-amueblado/190939321/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-12T01:43:16.051971Z"
+    "updated_at": "2026-11-12T13:24:22.027029Z"
   },
   {
     "id": "fc_190759258",
@@ -144,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124418Z"
+    "updated_at": "2026-11-12T13:24:21.260617Z"
   },
   {
     "id": "fc_191103755",
@@ -165,7 +144,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124097Z"
+    "updated_at": "2026-11-12T13:24:21.260358Z"
+  },
+  {
+    "id": "fc_191368283",
+    "title": "Luminoso piso de 1 Dormitorio en Zona Céntrica con terraza y vistas.\n\nDescubre tu nuevo hogar en una ubicac...",
+    "portal": "Fotocasa",
+    "price": 235000,
+    "price_per_m2": 1068,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Estación, Las Rozas",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/calefaccion-trastero-ascensor-no-amueblado/191368283/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-12T13:24:19.031085Z"
   },
   {
     "id": "fc_190416257",
@@ -186,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051770Z"
+    "updated_at": "2026-11-12T13:24:22.027098Z"
   },
   {
     "id": "fc_190920978",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124519Z"
+    "updated_at": "2026-11-12T13:24:21.260649Z"
   },
   {
     "id": "fc_189115349",
@@ -228,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051799Z"
+    "updated_at": "2026-11-12T13:24:22.027119Z"
   },
   {
     "id": "fc_190921052",
@@ -249,28 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051950Z"
-  },
-  {
-    "id": "fc_190696132",
-    "title": "VIVIR EN VILLAFONTANA ES MUCHO MÁS QUE TENER UN PISO\n Hay casas que son simplemente un lugar donde vivir. Y...",
-    "portal": "Fotocasa",
-    "price": 253000,
-    "price_per_m2": 1150,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Sur - PAU 4, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-ascensor-no-amueblado/190696132/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-12T01:43:16.051718Z"
+    "updated_at": "2026-11-12T13:24:22.027208Z"
   },
   {
     "id": "fc_189023379",
@@ -291,7 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124190Z"
+    "updated_at": "2026-11-12T13:24:21.260428Z"
   },
   {
     "id": "fc_191171899",
@@ -312,7 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.123984Z"
+    "updated_at": "2026-11-12T13:24:21.260294Z"
   },
   {
     "id": "fc_190973231",
@@ -333,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124227Z"
+    "updated_at": "2026-11-12T13:24:21.260455Z"
   },
   {
     "id": "fc_189695730",
@@ -354,28 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124265Z"
-  },
-  {
-    "id": "fc_188364540",
-    "title": "CAOLVES vende, estupendo apartamento a estrenar, totalmente reformado, excelentes calidades, salón, cocina,...",
-    "portal": "Fotocasa",
-    "price": 280000,
-    "price_per_m2": 1273,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Casco Antiguo, Boadilla del Monte",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/boadilla-del-monte/calefaccion/188364540/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-12T01:43:17.793704Z"
+    "updated_at": "2026-11-12T13:24:21.260485Z"
   },
   {
     "id": "fc_189658997",
@@ -396,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051609Z"
+    "updated_at": "2026-11-12T13:24:22.026994Z"
   },
   {
     "id": "fc_189849794",
@@ -417,28 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051442Z"
-  },
-  {
-    "id": "fc_191235339",
-    "title": "Presentamos esta excelente vivienda situada en el corazón de Alcorcón en Calle Los Cantos, Parque Mayor, co...",
-    "portal": "Fotocasa",
-    "price": 289000,
-    "price_per_m2": 1314,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Calle Cantos, Casco Antiguo, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-ascensor/191235339/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-12T01:43:15.123896Z"
+    "updated_at": "2026-11-12T13:24:22.026893Z"
   },
   {
     "id": "fc_190050376",
@@ -459,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124073Z"
+    "updated_at": "2026-11-12T13:24:21.260339Z"
   },
   {
     "id": "fc_190889065",
@@ -480,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:14.561783Z"
+    "updated_at": "2026-11-12T13:24:20.408613Z"
   },
   {
     "id": "fc_190997767",
@@ -501,7 +438,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051929Z"
+    "updated_at": "2026-11-12T13:24:22.027193Z"
   },
   {
     "id": "fc_190696850",
@@ -522,7 +459,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051505Z"
+    "updated_at": "2026-11-12T13:24:22.026933Z"
   },
   {
     "id": "fc_190716476",
@@ -543,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124246Z"
+    "updated_at": "2026-11-12T13:24:21.260470Z"
   },
   {
     "id": "fc_190638332",
@@ -564,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124292Z"
+    "updated_at": "2026-11-12T13:24:21.260508Z"
   },
   {
     "id": "fc_190257500",
@@ -585,7 +522,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051907Z"
+    "updated_at": "2026-11-12T13:24:22.027178Z"
   },
   {
     "id": "fc_191179433",
@@ -607,7 +544,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.123788Z"
+    "updated_at": "2026-11-12T13:24:21.260315Z"
   },
   {
     "id": "fc_190932838",
@@ -629,7 +566,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124172Z"
+    "updated_at": "2026-11-12T13:24:21.260412Z"
   },
   {
     "id": "fc_191116831",
@@ -650,7 +587,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.124437Z"
+    "updated_at": "2026-11-12T13:24:21.260632Z"
   },
   {
     "id": "fc_190941816",
@@ -671,7 +608,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:13.698317Z"
+    "updated_at": "2026-11-12T13:24:19.645658Z"
   },
   {
     "id": "fc_190617034",
@@ -692,7 +629,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:15.123871Z"
+    "updated_at": "2026-11-12T13:24:21.260232Z"
   },
   {
     "id": "fc_189772481",
@@ -713,29 +650,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.792891Z"
+    "updated_at": "2026-11-12T13:24:22.894555Z"
   },
   {
-    "id": "fc_191073665",
-    "title": "VO PRIVATE Majadahonda ofrece este magnífico chalet adosado de 4 plantas en urbanización privada, ubicado e...",
+    "id": "fc_189688208",
+    "title": "Agencia inmobiliaria en Boadilla del Monte, INMOBILIARIA HOGARES BOADILLA DEL MONTE presenta EN EXCLUSIVA e...",
     "portal": "Fotocasa",
-    "price": 640000,
-    "price_per_m2": 2909,
+    "price": 509900,
+    "price_per_m2": 2318,
     "size_m2": 220,
     "bedrooms": 4,
     "bathrooms": 2,
     "floor": "Chalet / Unifamiliar",
-    "location": "Las Matas  - Peñascales, Las Rozas",
+    "location": "Casco Antiguo, Boadilla del Monte",
     "lat": 40.45,
     "lng": -3.87,
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-calefaccion-jardin-terraza-internet-piscina-no-amueblado/191073665/d",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/boadilla-del-monte/calefaccion-terraza-ascensor-no-amueblado/189688208/d",
     "features": [
-      "Piscina",
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:12.839848Z"
+    "updated_at": "2026-11-12T13:24:23.550547Z"
   },
   {
     "id": "fc_188514678",
@@ -756,7 +692,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:16.051386Z"
+    "updated_at": "2026-11-12T13:24:22.026846Z"
   },
   {
     "id": "fc_191303014",
@@ -778,7 +714,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:17.793644Z"
+    "updated_at": "2026-11-12T13:24:23.550506Z"
   },
   {
     "id": "fc_190872288",
@@ -800,6 +736,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-12T01:43:13.698281Z"
+    "updated_at": "2026-11-12T13:24:19.645622Z"
   }
 ]
