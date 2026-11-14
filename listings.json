@@ -18,7 +18,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339851Z"
+    "updated_at": "2026-11-14T17:25:34.261556Z"
   },
   {
     "id": "fc_190443085",
@@ -39,7 +39,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409709Z"
+    "updated_at": "2026-11-14T17:25:33.358596Z"
   },
   {
     "id": "fc_190995896",
@@ -60,7 +60,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409061Z"
+    "updated_at": "2026-11-14T17:25:33.358506Z"
   },
   {
     "id": "fc_189592161",
@@ -81,7 +81,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409270Z"
+    "updated_at": "2026-11-14T17:25:33.358214Z"
   },
   {
     "id": "fc_189564146",
@@ -102,7 +102,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409573Z"
+    "updated_at": "2026-11-14T17:25:33.358450Z"
   },
   {
     "id": "fc_190858978",
@@ -123,7 +123,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339937Z"
+    "updated_at": "2026-11-14T17:25:34.261621Z"
   },
   {
     "id": "fc_190759258",
@@ -144,7 +144,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409600Z"
+    "updated_at": "2026-11-14T17:25:33.358472Z"
   },
   {
     "id": "fc_191103755",
@@ -165,7 +165,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409250Z"
+    "updated_at": "2026-11-14T17:25:33.358198Z"
   },
   {
     "id": "fc_191368283",
@@ -186,7 +186,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:38.429591Z"
+    "updated_at": "2026-11-14T17:25:29.892512Z"
   },
   {
     "id": "fc_190416257",
@@ -207,7 +207,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.340069Z"
+    "updated_at": "2026-11-14T17:25:34.261732Z"
   },
   {
     "id": "fc_190920978",
@@ -228,7 +228,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409642Z"
+    "updated_at": "2026-11-14T17:25:33.358524Z"
   },
   {
     "id": "fc_189115349",
@@ -249,28 +249,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.340096Z"
-  },
-  {
-    "id": "fc_190921052",
-    "title": "GRUPO INMOBILIARIO TIZONA ofrece en exclusiva esta vivienda, en una de las zonas con más servicios y más co...",
-    "portal": "Fotocasa",
-    "price": 249900,
-    "price_per_m2": 1136,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Villafontana - Estoril I, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor/190921052/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-14T11:50:42.340204Z"
+    "updated_at": "2026-11-14T17:25:34.261754Z"
   },
   {
     "id": "fc_190696132",
@@ -291,28 +270,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.340011Z"
-  },
-  {
-    "id": "fc_189406524",
-    "title": "¡HOGARES VENDE EN EXCLUSIVA!\nDescubre este fantástico piso para REFORMAR en una de las mejores zonas de Mós...",
-    "portal": "Fotocasa",
-    "price": 255000,
-    "price_per_m2": 1159,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Norte - Universidad, Móstoles",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-parking-terraza-trastero-ascensor-amueblado/189406524/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-14T11:50:42.339644Z"
+    "updated_at": "2026-11-14T17:25:34.261674Z"
   },
   {
     "id": "fc_189023379",
@@ -333,28 +291,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409323Z"
-  },
-  {
-    "id": "fc_191070992",
-    "title": "Te presentamos este lienzo en blanco y esta grandísima oportunidad de distribuir tu vivienda a tu gusto y e...",
-    "portal": "Fotocasa",
-    "price": 275000,
-    "price_per_m2": 1250,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Parque Lisboa - La Paz, Alcorcón",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/calefaccion-ascensor/191070992/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-14T11:50:41.409173Z"
+    "updated_at": "2026-11-14T17:25:33.358255Z"
   },
   {
     "id": "fc_190973231",
@@ -375,7 +312,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409361Z"
+    "updated_at": "2026-11-14T17:25:33.358283Z"
   },
   {
     "id": "fc_189695730",
@@ -396,7 +333,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409398Z"
+    "updated_at": "2026-11-14T17:25:33.358330Z"
   },
   {
     "id": "fc_189658997",
@@ -417,7 +354,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339887Z"
+    "updated_at": "2026-11-14T17:25:34.261584Z"
   },
   {
     "id": "fc_189849794",
@@ -438,7 +375,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339713Z"
+    "updated_at": "2026-11-14T17:25:34.261450Z"
   },
   {
     "id": "fc_190050376",
@@ -459,7 +396,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409227Z"
+    "updated_at": "2026-11-14T17:25:33.358178Z"
   },
   {
     "id": "fc_190889065",
@@ -480,7 +417,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:40.253972Z"
+    "updated_at": "2026-11-14T17:25:32.242808Z"
   },
   {
     "id": "fc_190404684",
@@ -501,7 +438,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409728Z"
+    "updated_at": "2026-11-14T17:25:33.358610Z"
+  },
+  {
+    "id": "fc_190940710",
+    "title": "Housfy vende 🏡 luminoso piso ubicado en Móstoles, el cuál consta de 96 metros útiles (verificados con la Di...",
+    "portal": "Fotocasa",
+    "price": 320000,
+    "price_per_m2": 1455,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Pintor Ribera, Norte - Universidad, Móstoles",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/calefaccion-ascensor/190940710/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-14T17:25:34.261491Z"
   },
   {
     "id": "fc_190696850",
@@ -522,7 +480,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339781Z"
+    "updated_at": "2026-11-14T17:25:34.261384Z"
   },
   {
     "id": "fc_190716476",
@@ -543,7 +501,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409379Z"
+    "updated_at": "2026-11-14T17:25:33.358297Z"
   },
   {
     "id": "fc_190591727",
@@ -565,7 +523,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409543Z"
+    "updated_at": "2026-11-14T17:25:33.358429Z"
   },
   {
     "id": "fc_190638332",
@@ -586,28 +544,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409426Z"
+    "updated_at": "2026-11-14T17:25:33.358354Z"
   },
   {
-    "id": "fc_190257500",
-    "title": "Ubicado en la consolidada y demandada urbanización Las Cumbres, una de las zonas residenciales más valorada...",
+    "id": "fc_191306662",
+    "title": "Magnifico Loft/Estudio en planta baja, ubicado en una urbanización situada en pleno centro del casco antigu...",
     "portal": "Fotocasa",
-    "price": 374000,
-    "price_per_m2": 1700,
+    "price": 379000,
+    "price_per_m2": 1723,
     "size_m2": 220,
     "bedrooms": 4,
     "bathrooms": 2,
     "floor": "Chalet / Unifamiliar",
-    "location": "Suroeste - Zona Hospital, Móstoles",
+    "location": "Calle de la Jabonería, 3, Alto de la Jabonería, Las Rozas",
     "lat": 40.45,
     "lng": -3.87,
     "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/mostoles/aire-acondicionado-calefaccion-terraza-ascensor-no-amueblado/190257500/d",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/aire-acondicionado-calefaccion-internet-no-amueblado/191306662/d",
     "features": [
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.340181Z"
+    "updated_at": "2026-11-14T17:25:29.892380Z"
   },
   {
     "id": "fc_191179433",
@@ -629,7 +587,28 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409197Z"
+    "updated_at": "2026-11-14T17:25:33.358153Z"
+  },
+  {
+    "id": "fc_190910333",
+    "title": "!HOGARES VENDE EXCLUSIVA!\nLa vivienda presenta un buen estado de conservación y totalmente reformada, ofrec...",
+    "portal": "Fotocasa",
+    "price": 394900,
+    "price_per_m2": 1795,
+    "size_m2": 220,
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "floor": "Chalet / Unifamiliar",
+    "location": "Calle Olímpico Francisco Fernández Ochoa, Parque Ondarreta - Urtinsa, Alcorcón",
+    "lat": 40.45,
+    "lng": -3.87,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "url": "https://www.fotocasa.es/es/comprar/vivienda/alcorcon/aire-acondicionado-calefaccion-terraza-zona-comunitaria-ascensor-amueblado/190910333/d",
+    "features": [
+      "4 dorms",
+      "Jardín / Parcela"
+    ],
+    "updated_at": "2026-11-14T17:25:33.358547Z"
   },
   {
     "id": "fc_190932838",
@@ -651,7 +630,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409306Z"
+    "updated_at": "2026-11-14T17:25:33.358241Z"
   },
   {
     "id": "fc_191116831",
@@ -672,7 +651,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409618Z"
+    "updated_at": "2026-11-14T17:25:33.358486Z"
   },
   {
     "id": "fc_190941816",
@@ -693,7 +672,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:39.138607Z"
+    "updated_at": "2026-11-14T17:25:31.143693Z"
   },
   {
     "id": "fc_190617034",
@@ -714,7 +693,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:41.409129Z"
+    "updated_at": "2026-11-14T17:25:33.358097Z"
   },
   {
     "id": "fc_189688208",
@@ -735,28 +714,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:44.529178Z"
-  },
-  {
-    "id": "fc_191053104",
-    "title": "HOGARES LAS ROZAS HERON VENDE EN EXCLUSIVA este fantástico PISO LEVITT de 145 m² construidos y 115 m² útile...",
-    "portal": "Fotocasa",
-    "price": 585000,
-    "price_per_m2": 2659,
-    "size_m2": 220,
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "floor": "Chalet / Unifamiliar",
-    "location": "Calle Playa de Sitges, El Pinar - Punta Galea, Las Rozas",
-    "lat": 40.45,
-    "lng": -3.87,
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "url": "https://www.fotocasa.es/es/comprar/vivienda/las-rozas-de-madrid/ascensor-no-amueblado/191053104/d",
-    "features": [
-      "4 dorms",
-      "Jardín / Parcela"
-    ],
-    "updated_at": "2026-11-14T11:50:38.429277Z"
+    "updated_at": "2026-11-14T17:25:36.425559Z"
   },
   {
     "id": "fc_188514678",
@@ -777,7 +735,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:42.339678Z"
+    "updated_at": "2026-11-14T17:25:34.261422Z"
   },
   {
     "id": "fc_191303014",
@@ -799,7 +757,7 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:44.529135Z"
+    "updated_at": "2026-11-14T17:25:36.425518Z"
   },
   {
     "id": "fc_190872288",
@@ -821,6 +779,6 @@
       "4 dorms",
       "Jardín / Parcela"
     ],
-    "updated_at": "2026-11-14T11:50:39.138574Z"
+    "updated_at": "2026-11-14T17:25:31.143647Z"
   }
 ]
